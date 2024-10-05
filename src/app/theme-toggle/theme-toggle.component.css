@@ -1,0 +1,30 @@
+/* Botón flotante para cambiar el tema */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f8f8f8;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(107, 104, 104, 0.2);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .theme-toggle:hover {
+    transform: scale(1.1);
+  }
+  
+  body.dark-mode .theme-toggle {
+    background-color: #211f1f;
+    color: #f8f8f8;
+  }
+  
