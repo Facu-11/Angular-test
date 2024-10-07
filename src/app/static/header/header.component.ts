@@ -8,6 +8,7 @@ import { Component, ElementRef, viewChild } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
+
 export class HeaderComponent {
 
   isMenuOpen = false;
