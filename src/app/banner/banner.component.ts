@@ -12,16 +12,14 @@ import { Component, OnInit } from '@angular/core';
 export class BannerComponent {
   images = [
     'https://picsum.photos/400/400?random=1',
-    'https://picsum.photos/400/400?random=1',
-    'https://picsum.photos/400/400?random=1',
+    'https://picsum.photos/400/400?random=2',
+    'https://picsum.photos/400/400?random=3',
     
   ];
   currentIndex = 0;
-
+  
   title = 'Apple Watch';
   subtitle = 'The ultimate device for a healthy life';
-
-
 
   nextSlide() {
     this.currentIndex = (this.currentIndex + 1) % this.images.length;

@@ -12,9 +12,7 @@ import { Component, ElementRef, viewChild } from '@angular/core';
 export class HeaderComponent {
 
   isMenuOpen = false;
-  iconCross = "imgs/closes.png";
-
-
+ 
   openMenu(){
     this.isMenuOpen = !this.isMenuOpen;
   }

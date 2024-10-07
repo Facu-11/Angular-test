@@ -1,7 +1,7 @@
 <header>
     <div class="navbar">
         <div class="logo">
-            <a href="#"><img [src]="iconCross" alt="Dinastia Iphone" /></a>
+            <a href="#"><img alt="Dinastia Iphone"/></a>
         </div>
 
         <div class="menu-icon" #menuIcon (click)="openMenu()">
@@ -18,14 +18,26 @@
             </ul>
         </nav>
     </div>
+
 </header>
 
-<script>
-    // Alternar menú en pantallas pequeñas
-    const menuIcon = document.getElementById('menu-icon');
-    const navLinks = document.getElementById('nav-links');
+<div *ngIf="isMenuOpen">
+
+    <nav>
+
+        <div class="nav-mobile-icon">
+
+            <img src="icons/cross.png" alt="cross">
+           
+        </div>
+
+        <ul id="nav-mobile">
+            <li><a href="#" class="btn">Mac</a></li>
+            <li><a href="#" class="btn">iPad</a></li>
+            <li><a href="#" class="btn">iPhone</a></li>
+            <li><a href="#" class="btn">Watch</a></li>
+            <li><a href="#" class="btn">Comparar</a></li>
+        </ul>
+    </nav>
     
-    menuIcon.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-</script>
+</div>
