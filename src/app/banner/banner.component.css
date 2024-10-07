@@ -1,65 +1,96 @@
-/* Hero Section */
-.hero {
+/* Estilos del banner */
+.header-banner {
+  position: relative;
+  width: 80%; /* Reducir ancho al 80% */
+  height: 50vh; /* Mantener altura ajustada */
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra similar */
+  transition: background-image 1s ease-in-out;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Alineación a la izquierda */
   align-items: center;
-  padding: 180px 100px;
-  background-color: #f3f1fb;
+  margin: 20px auto; /* Centrado horizontalmente y margen superior para evitar que el header lo cubra */
+  overflow: hidden;
 }
 
-.hero-text {
-  flex: 1;
+.banner-content {
+  color: white;
+  text-align: left;
+  position: absolute;
+  z-index: 1;
+  padding-left: 40px; /* Espacio desde el borde izquierdo */
 }
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-  color: #333;
+.banner-content h1 {
+  font-size: 3vw; /* Tamaño de fuente relativo al viewport */
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para el texto */
 }
 
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #666;
+.banner-content p {
+  font-size: 1.2vw;
+  margin-top: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-.hero .btn {
-  padding: 10px 20px;
-  background-color: #4186e1;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 20px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+/* Botones de navegación */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 50%; /* Forma circular */
+  display: none; /* Se ocultan inicialmente */
 }
 
-.hero .btn:hover {
-  background-color: #333;
+.prev {
+  left: 20px;
 }
 
-.hero-image {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+.next {
+  right: 20px;
 }
 
-.hero-image img {
-  max-width: 100%;
-  height: auto;
+/* Muestra los botones al pasar el cursor por el banner */
+.header-banner:hover .prev,
+.header-banner:hover .next {
+  display: block;
 }
 
-/* Responsivo */
+/* Pantallas pequeñas */
 @media (max-width: 768px) {
-  .hero {
-      flex-direction: column;
-      text-align: center;
+  .banner-content h1 {
+    font-size: 5vw;
   }
 
-  .hero-image {
-      margin-top: 20px;
+  .banner-content p {
+    font-size: 3vw;
   }
 
-  .hero h1 {
-      font-size: 2.2rem;
+  .prev, .next {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-content h1 {
+    font-size: 6vw;
+  }
+
+  .banner-content p {
+    font-size: 4vw;
+  }
+
+  .prev, .next {
+    font-size: 16px;
   }
 }

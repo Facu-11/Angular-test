@@ -1,10 +1,12 @@
-<section class="hero">
-  <div class="hero-text">
-      <h1>Ipad Pro</h1>
-      <p>Increible poderoso.</p>
-      <a routerlink ="#" class="btn">Ver</a>
+<section
+  class="header-banner"
+  [ngStyle]="{ 'background-image': getBackgroundImage() }"
+>
+  <div class="banner-content">
+    <h1>{{ title }}</h1>
+    <p>{{ subtitle }}</p>
+    <a href="" class="banner-button">Ver Mas</a>
   </div>
-  <div class="hero-image">
-      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Ipad">
-  </div>
+  <button class="prev" (click)="prevSlide()">&#10094;</button>
+  <button class="next" (click)="nextSlide()">&#10095;</button>
 </section>
