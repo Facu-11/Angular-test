@@ -1,29 +1,47 @@
 <header>
     <div class="navbar">
         <div class="logo">
-            <a href ="#"><img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Dinastia Iphone" /></a>
+            <a href="#"><img [src]="iconCross" alt="Dinastia Iphone" /></a>
         </div>
-        <div class="menu-icon" id="menu-icon">
+
+        <div class="menu-icon" #menuIcon (click)="openMenu()">
             &#9776;
         </div>
+        
         <nav>
-            <ul id="nav-links">
-                <li><a href ="#" class="btn">Mac</a></li>
-                <li><a href ="#" class="btn">iPad</a></li>
-                <li><a href ="#" class="btn">iPhone</a></li>
-                <li><a href ="#" class="btn">Watch</a></li>
-                <li><a href ="#" class="btn">Comparar</a></li>
+            <ul id="nav-links-norm">
+                <li><a href="#" class="btn">Mac</a></li>
+                <li><a href="#" class="btn">iPad</a></li>
+                <li><a href="#" class="btn">iPhone</a></li>
+                <li><a href="#" class="btn">Watch</a></li>
+                <li><a href="#" class="btn">Comparar</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<script>
-    // Alternar menú en pantallas pequeñas
-    const menuIcon = document.getElementById('menu-icon');
-    const navLinks = document.getElementById('nav-links');
-    
-    menuIcon.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-</script>
+
+
+<!-- menu normal -->
+
+
+<!-- menu mobile -->
+<div *ngIf="isMenuOpen">
+
+    <nav class="nav-mobile">
+
+        <div class="nav-mobile-backButtonContainer" (click)="openMenu()">
+           <img src="/upload.png">
+        </div>
+
+        <ul id="nav-mobile-links">
+            <li><a href="#" class="btn">Mac</a></li>
+            <li><a href="#" class="btn">iPad</a></li>
+            <li><a href="#" class="btn">iPhone</a></li>
+            <li><a href="#" class="btn">Watch</a></li>
+            <li><a href="#" class="btn">Comparar</a></li>
+        </ul>
+
+    </nav>
+
+</div>
