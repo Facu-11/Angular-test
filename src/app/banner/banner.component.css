@@ -1,6 +1,7 @@
 /* Estilos del banner */
 .header-banner {
-  width: 90%; /* Reducir ancho al 80% */
+
+  width: 95vw; /* Reducir ancho al 80% */
   height: 80vh;
   margin: 10px auto auto auto;
 
@@ -13,10 +14,11 @@
   justify-content: flex-start; 
   align-items: center;
   overflow: hidden;
+
 }
 
 .banner-content {
-  color: white;
+  color: #fff;
   text-align: left;
   position: absolute;
   z-index: 1;
