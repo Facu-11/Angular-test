@@ -1,41 +1,79 @@
 /* Estilos del banner */
 .header-banner {
 
-  width: 95vw; /* Reducir ancho al 80% */
+  width: 90vw; /* Reducir ancho al 80% */
   height: 80vh;
   margin: 10px auto auto auto;
 
-  background-size: cover;
+  /* background-size: cover;
   background-position: center;
   border-radius: 15px; 
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);  */
 
   display: flex;
   justify-content: flex-start; 
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 
 }
 
+.img-carrousel{
+  width: 100%;
+  height: 100%;
+  z-index: 925;
+}
+
+div img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+   
 .banner-content {
   color: #fff;
   text-align: left;
   position: absolute;
-  z-index: 1;
-  padding-left: 40px; /* Espacio desde el borde izquierdo */
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 90vw;
+  height: 80vh;
+  z-index: 950;
+
 }
 
-.banner-content h1 {
-  font-size: 3vw; /* Tamaño de fuente relativo al viewport */
+.banner-content-text-container{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-content-text-container h1 {
+  font-size: 8vw; /* Tamaño de fuente relativo al viewport */
   font-weight: 700;
   margin: 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Sombra para el texto */
 }
 
-.banner-content p {
-  font-size: 1.2vw;
+.banner-content-text-container p {
+  font-size: 3vw;
   margin-top: 10px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.banner-content-text-container a {
+  font-size: 2vw;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 8px;
 }
 
 /* Botones de navegación */

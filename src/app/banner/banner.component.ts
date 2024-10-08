@@ -1,5 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, ApplicationRef, ChangeDetectorRef, Component, inject, Inject, } from '@angular/core';
+import { first, interval } from 'rxjs';
+
 
 @Component({
   selector: 'app-banner',
@@ -10,34 +12,52 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BannerComponent {
-  images = [
-    'https://picsum.photos/400/400?random=1',
-    'https://picsum.photos/400/400?random=2',
-    'https://picsum.photos/400/400?random=3',
-    
+
+  private _changeDetector = inject(ChangeDetectorRef);
+  private _applicationRef = inject(ApplicationRef);
+
+  imgs: Array<any> = [
+
+    { "url": "https://picsum.photos/400/400?random=1", "alt": "ramdon1" },
+    { "url": "https://picsum.photos/400/400?random=2", "alt": "ramdon1" },
+    { "url": "https://picsum.photos/400/400?random=3", "alt": "ramdon1" },
+
   ];
-  currentIndex = 0;
-  
-  title = 'Apple Watch';
-  subtitle = 'The ultimate device for a healthy life';
 
-  nextSlide() {
-    this.currentIndex = (this.currentIndex + 1) % this.images.length;
+  index: number = 0;
+  counter: number = 0;
+
+  constructor() {
+
+    this._applicationRef.isStable.pipe(first((isStable) => isStable))
+      .subscribe(() => {
+
+        interval(1000).subscribe(() => {this.timerAdmin()})
+
+      });
+
   }
 
-  prevSlide() {
-    this.currentIndex =
-      (this.currentIndex - 1 + this.images.length) % this.images.length;
+  timerAdmin() {
+
+    if (this.counter == 10) {
+      this.nextImg();
+      this.counter = 0;
+    }
+    this.counter++;
   }
 
-  getBackgroundImage() {
-    return `url(${this.images[this.currentIndex]})`;
+  nextImg() {
+    this.index = (this.index + 1) % this.imgs.length;
+    this._changeDetector.detectChanges();
   }
 
-  // startAutoSlide() {
-  //   setInterval(() => {
-  //     this.nextSlide();
-  //   }, 10000); // Cambiar el banner cada 10 segundos
+  prevImg() {
+    this.index = (this.index - 1 + this.imgs.length) % this.imgs.length;
+  }
 
+  restartClock(){
+    this.counter = 0;
+  }
 
 }
