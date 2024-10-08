@@ -9,7 +9,7 @@ header {
     position: sticky;
     top: 0;
 
-    z-index: 900;
+    z-index: 999;
 }
 
 .navbar {
@@ -84,7 +84,7 @@ nav ul li a:hover {
         position: fixed;
         height: 100vh;
         width: 100vw;
-        z-index: 900;
+        z-index: 999;
         top:0;
 
         padding-left: 10px;
