@@ -1,0 +1,30 @@
+<div class="productos-con-filtro">
+    <div class="filtro">
+      <h3>Filter</h3>
+      <label>
+        <input type="checkbox" />
+        Fashion
+      </label>
+      <label>
+        <input type="checkbox" />
+        Travel
+      </label>
+      <label>
+        <input type="checkbox" />
+        Every Day
+      </label>
+      <label>
+        <input type="checkbox" />
+        Miniatures
+      </label>
+    </div>
+  
+    <div class="productos-grid">
+      <div class="producto" *ngFor="let product of products">
+        <img [src]="product.image" alt="{{product.name}}">
+        <h3>{{product.name}}</h3>
+        <p>{{product.price}} €</p>
+      </div>
+    </div>
+  </div>
+  
