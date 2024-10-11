@@ -1,6 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, viewChild } from '@angular/core';
 
+interface objImg {
+  url: string;
+  name: string;
+}
+
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -11,11 +16,11 @@ import { Component, ElementRef, viewChild } from '@angular/core';
 
 export class HeaderComponent {
 
-  isMenuOpen = false;
-  iconCross = "imgs/closes.png";
+  Icon: objImg = { url: 'icons/fake-logo.png', name: 'Dinastia Iphone' };
 
+  isMenuOpen: boolean = false;
 
-  openMenu(){
+  openMenu() {
     this.isMenuOpen = !this.isMenuOpen;
   }
 

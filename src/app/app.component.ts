@@ -25,4 +25,8 @@ import { ProductGalleryComponent } from './product/product-gallery/product-galle
 export class AppComponent {
   title = 'Dinasty';
   
+  test(height:number){
+    console.log(height);
+  }
+
 }
