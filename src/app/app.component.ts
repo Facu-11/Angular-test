@@ -20,4 +20,8 @@ import { ThemeToggleComponent } from "./theme-toggle/theme-toggle.component";
 export class AppComponent {
   title = 'Dinasty';
   
+  test(height:number){
+    console.log(height);
+  }
+
 }

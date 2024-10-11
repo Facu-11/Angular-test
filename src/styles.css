@@ -1,9 +1,16 @@
-body {
-    transition: background-color 0.3s, color 0.3s;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
-  body.dark-mode {
-    background-color: #201f1f;
-    color: #f8f8f8;
-  }
+}
+
+:root{
   
+  --light-primary-color: #3498db;
+  --light-secondary-color: #526D82;
+  --light-thirty-color: #9DB2BF;
+  --light-fourty-color: #27374D;
+
+  
+}

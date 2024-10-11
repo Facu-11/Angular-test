@@ -12,9 +12,12 @@
 }
 
 .info-grid {
+    width: 90vw;
+    margin: auto;
+
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -30,18 +33,18 @@
 }
 
 .info-item h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px 0;
     color: #333;
 }
 
 .info-item p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #666;
 }
 
 .info-icon {
-    width: 50px;
+    width: 6.25rem;
     height: auto;
 }
 
