@@ -3,16 +3,26 @@
     <img [src]="imgs.url" [alt]="imgs.alt">
   </div>
 
-  <!-- <div class="banner-content">
+  <div class="banner-container">
 
-    <div class="banner-content-text-container">
-      <h1>{{ "cosa" }}</h1>
-      <p>{{ "maravillosa" }}</p>
-      <a href="" class="banner-button">Ver Mas</a>
+    <div class="banner-container-textContainer">
+      <h1>Dinastía iPhone</h1>
+      <p>El Apple que esperabas está acá</p>
+      <div class="buttons">
+        <button class="btn-light">Button</button>
+        <button class="btn-dark">Button</button>
+      </div>
     </div>
 
-    <button class="prev" (click)="restartClock()">&#10094;</button>
-    <button class="next" (click)="restartClock()">&#10095;</button>
-  
-  </div> -->
+    <div class="banner-container-carrouselContainer">
+      
+      <div class="phone">
+        <img [src]="phones[index].url" [alt]="phones[index].alt">
+      </div>
+
+      <img class="shadow" src="/static_imgs/designs/shadow.png" alt="">
+
+    </div>
+
+  </div>
 </section>
