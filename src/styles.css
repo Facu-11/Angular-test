@@ -2,4 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+:root{
+  
+  --light-primary-color: #3498db;
+  --light-secondary-color: #526D82;
+  --light-thirty-color: #9DB2BF;
+  --light-fourty-color: #27374D;
+
+  
 }
