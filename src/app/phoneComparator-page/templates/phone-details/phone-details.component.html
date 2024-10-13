@@ -1,0 +1,96 @@
+<div class="container">
+
+    <div class="phoneTitle">
+        <h1>{{phoneInput().model}}</h1>
+    </div>
+
+    <section class="features">
+
+        <!-- camara -->
+        <div class="feature" (click)="testFn()">
+            <svg fill="#000000" width="100" height="100" viewBox="-2 -4 24 24" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="xMinYMin" class="jam jam-camera">
+                <path
+                    d='M5.676 5H4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1.676l-.387-1.501A2.002 2.002 0 0 0 12 2H8a2 2 0 0 0-1.937 1.499L5.676 5zm-1.55-2C4.57 1.275 6.136 0 8 0h4a4.002 4.002 0 0 1 3.874 3H16a4 4 0 0 1 4 4v5a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4h.126zM10 13a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm6-3a1 1 0 1 0 0-2 1 1 0 0 0 0 2z' />
+            </svg>
+
+            <h2>{{phoneInput().camera}}</h2>
+            <!-- <p>ProMotion technology with adaptive 120Hz refresh rate</p> -->
+        </div>
+
+        <!-- almacenamiento -->
+        <div class="feature">
+            <svg fill="#000000" width="100" height="100" viewBox="0 0 36 36" version="1.1"
+                preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <title>storage-solid</title>
+                <path class="clr-i-solid clr-i-solid-path-1"
+                    d="M17.91,18.28c8.08,0,14.66-1.74,15.09-3.94V8.59c-.43,2.2-7,3.94-15.09,3.94A39.4,39.4,0,0,1,6.25,11V9a39.4,39.4,0,0,0,11.66,1.51C26,10.53,32.52,8.79,33,6.61h0C32.8,3.2,23.52,2.28,18,2.28S3,3.21,3,6.71V29.29c0,3.49,9.43,4.43,15,4.43s15-.93,15-4.43V24.09C32.57,26.28,26,28,17.91,28A39.4,39.4,0,0,1,6.25,26.52v-2A39.4,39.4,0,0,0,17.91,26C26,26,32.57,24.28,33,22.09V16.34c-.43,2.2-7,3.94-15.09,3.94A39.4,39.4,0,0,1,6.25,18.77v-2A39.4,39.4,0,0,0,17.91,18.28Z">
+                </path>
+                <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+            </svg>
+            <h2>{{phoneInput().storage}}</h2>
+            <!-- <p>ProMotion technology with adaptive 120Hz refresh rate</p> -->
+        </div>
+
+        <!-- bateria -->
+        <div class="feature">
+            <svg width="100" height="100" viewBox="0 0 48.00 48.00" xmlns="http://www.w3.org/2000/svg" fill="#000000"
+                stroke="#000000" stroke-width="0.00048000000000000007">
+
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                <g id="SVGRepo_iconCarrier">
+                    <g id="Layer_2" data-name="Layer 2">
+                        <g id="Icons">
+                            <g>
+                                <rect width="48" height="48" fill="none" />
+                                <path
+                                    d="M45,19H42V15a4,4,0,0,0-4-4H6a4,4,0,0,0-4,4V33a4,4,0,0,0,4,4H38a4,4,0,0,0,4-4V29h3a.9.9,0,0,0,1-1V20A.9.9,0,0,0,45,19ZM6,33V15H38V33ZM8,17H35V31H8Z" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+
+            </svg>
+            <h2>{{phoneInput().battery}}</h2>
+            <!-- <p>ProMotion technology with adaptive 120Hz refresh rate</p> -->
+        </div>
+
+        <!-- pantalla -->
+        <div class="feature">
+            <svg fill="#000000" height="100" width="100" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <g>
+                        <path
+                            d="M256,405.333c-12.8,0-21.333,8.533-21.333,21.333S243.2,448,256,448c12.8,0,21.333-8.533,21.333-21.333 S268.8,405.333,256,405.333z">
+                        </path>
+                    </g>
+                    <g>
+                        <path
+                            d="M384,0H128c-23.467,0-42.667,19.2-42.667,42.667v426.667C85.333,492.8,104.533,512,128,512h256 c23.467,0,42.667-19.2,42.667-42.667V42.667C426.667,19.2,407.467,0,384,0z M384,469.333H128V42.667h256V469.333z">
+                        </path>
+                    </g>
+                </g>
+            </svg>
+            <h2>{{phoneInput().display}}</h2>
+            <!-- <p>ProMotion technology with adaptive 120Hz refresh rate</p> -->
+        </div>
+
+        <!-- colores -->
+        <!-- <div class="feature">
+
+            <h2>{{phone.colors[0]}}</h2>
+            <p>New 6-core CPU with 2 performance and 4 efficiency cores</p> 
+
+        </div> -->
+    </section>
+
+    <!-- se deben sacar los feactures de bateria, arreglar el json y cambiar la interface correspondiente -->
+
+</div>
