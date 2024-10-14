@@ -20,7 +20,6 @@ export class PhoneDetailsComponent {
     price: ''
   };
 
-
   phoneInput = input.required<phoneDetails>();
 
   testFn(){
