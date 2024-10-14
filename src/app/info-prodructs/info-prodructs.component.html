@@ -1,22 +1,38 @@
-<section class="own-products">
-  <h2>Nuestros productos</h2>
-<div class="watch-section">
-
-    <div class="section-item" style="background-image: url('https://fastly.picsum.photos/id/486/400/400.jpg?hmac=aU_3wQ366qFhoBoChWwCZ4yXBOGzm60o2fZXf5ccpC0');">
-      <p>Iphones</p>
-    </div>
-    
-    <div class="section-item" style="background-image: url('https://fastly.picsum.photos/id/486/400/400.jpg?hmac=aU_3wQ366qFhoBoChWwCZ4yXBOGzm60o2fZXf5ccpC0');">
-      <p>Ipads</p>
-    </div>
-
-    <div class="section-item" style="background-image: url('https://fastly.picsum.photos/id/486/400/400.jpg?hmac=aU_3wQ366qFhoBoChWwCZ4yXBOGzm60o2fZXf5ccpC0');">
-      <p>Apple watch</p>
-    </div>
-    
-    <div class="section-item" style="background-image: url('https://fastly.picsum.photos/id/486/400/400.jpg?hmac=aU_3wQ366qFhoBoChWwCZ4yXBOGzm60o2fZXf5ccpC0');">
-      <p>Airpods</p>
-    </div>
-    
+<div class="product-container">
+  <!-- Títulos de familia -->
+  <div class="families">
+    <span (click)="showFamily('razr')">FAMILIA RAZR</span>
+    <span (click)="showFamily('edge')">FAMILIA EDGE</span>
   </div>
-</section>
+
+  <!-- Modo normal (productos uno al lado del otro) -->
+  <div class="normal-view" *ngIf="!isMobileView && products.length <= 3">
+    <div class="product-card" *ngFor="let product of products">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Imagen del producto" />
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.description }}</p>
+      <p class="price">{{ product.price }}</p>
+      <button>Comprar</button>
+    </div>
+  </div>
+
+  <!-- Modo carrusel -->
+  <div class="carousel" *ngIf="isMobileView || products.length > 3">
+    <button class="prev" (click)="prevSlide()">&#10094;</button>
+    
+    <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
+      <div class="carousel-item" *ngFor="let product of products">
+        <div class="product-card">
+          <img [src]="product.image" alt="Imagen del producto" />
+          <h3>{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <p class="price">{{ product.price }}</p>
+          <button>Comprar</button>
+        </div>
+      </div>
+    </div>
+    
+    <button class="next" (click)="nextSlide()">&#10095;</button>
+    <button class="prev" (click)="prevSlide()">&#10096;</button>
+  </div>
+</div>
