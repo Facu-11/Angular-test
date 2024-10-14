@@ -1,64 +1,96 @@
-.own-products {
-  width: 90vw;
-  height: auto;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 4vh;
+.product-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
   text-align: center;
 }
 
-.own-products h2 {
-  font-size: 6vh;
-}
-
-.watch-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 20px;
-  margin: 0 auto;
-  padding: 20px;
-  max-width: 1200px;
-}
-
-.section-item {
-  position: relative;
-  height: 450px;
-  /* Ajusta la altura según sea necesario */
-  background-size: cover;
-  background-position: center;
+.families {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  /* Coloca el texto a la derecha */
-  color: white;
-  /* Cambia el color del texto según el fondo */
-  padding: 0 20px;
-  /* Espaciado a la derecha */
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.normal-view {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: #f7f7f7;
+  padding: 20px;
   border-radius: 8px;
-  /* Esquinas redondeadas */
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
 }
 
-.section-item p {
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.5rem;
   font-weight: bold;
-  font-size: 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-  /* Sombra de texto para mejor legibilidad */
+  margin: 10px 0;
 }
 
-.section-item:hover {
-  transform: scale(1.05);
+button {
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
 }
 
 @media (max-width: 768px) {
-  .watch-section {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  .normal-view {
+    display: none;
   }
-}
 
-@media (max-width: 480px) {
-  .watch-section {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  .carousel-item {
+    min-width: 100%;
   }
 }
