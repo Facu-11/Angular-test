@@ -14,11 +14,12 @@ import { AllProductsComponent } from "./products/all-products/all-products.compo
 import { ProductPageComponent } from './product/product-page/product-page.component';
 import { FaqComponent } from './faq/faq.component';
 import { ProductGalleryComponent } from './product/product-gallery/product-gallery.component';
+import { ComparatorComponentComponent } from './phoneComparator-page/comparator-component/comparator-component.component';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,FaqComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,ComparatorComponentComponent],
+
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

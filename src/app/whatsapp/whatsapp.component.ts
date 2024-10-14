@@ -20,20 +20,6 @@ export class WhatsappComponent {
   isStuck=false;
   almendra:number = 0;
   
-  @HostListener('window:scroll',['$event'])
-  windowScroll(event:any){
-    console.log(window.innerWidth);
-    console.log(window.scrollY);
-
-    if(window.scrollY>2000 ){
-      this.almendra=window.scrollY-(window.scrollY);
-
-    }else if(window.scrollY){
-      this.almendra=0;
-      this.isStuck = false;
-    }
-
-  }
-
+  
 
 }

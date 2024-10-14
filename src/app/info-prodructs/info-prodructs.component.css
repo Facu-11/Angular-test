@@ -1,7 +1,9 @@
-.product-container {
+.own-products {
   width: 100%;
-  margin: auto;
-  padding: 20px;
+  height: auto;
+  background-color: var(--light-thirty-color);
+
+  padding-top: 4vh;
   text-align: center;
 }
 

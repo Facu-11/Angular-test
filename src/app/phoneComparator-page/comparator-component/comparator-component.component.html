@@ -1,0 +1,43 @@
+<app-header></app-header>
+<section>
+
+    <div class="titleBox">
+        <h1>Comparador de modelos</h1>
+        <p>compara entre nuestros modelos de iphone</p>
+    </div>
+
+    <div class="modelSelectors">
+
+        <select name="iphoneOne" [(ngModel)]="userModelOne" (change)="test(0)" class="selectorBox">
+            <optgroup label="Nuevos modelos">
+                <ng-container *ngTemplateOutlet="opts"></ng-container>
+            </optgroup>
+
+        </select>
+
+        <select name="iphoneTwo" [(ngModel)]="userModelTwo" (change)="test(1)" class="selectorBox">
+            <optgroup label="Nuevos modelos">
+                <ng-container *ngTemplateOutlet="opts"></ng-container>
+            </optgroup>
+
+        </select>
+
+    </div>
+
+    <div class="phonesContainer">
+
+        <app-phone-details [phoneInput]="phoneModalOne"></app-phone-details>
+
+        <app-phone-details [phoneInput]="phoneModalTwo"></app-phone-details>
+
+    </div>
+
+</section>
+<!-- <app-phone-details></app-phone-details> -->
+<app-footer></app-footer>
+
+<!-- zona de templates -->
+
+<ng-template #opts>
+    <option *ngFor="let phone of dataPhonesT">{{phone.model}}</option>
+</ng-template>
