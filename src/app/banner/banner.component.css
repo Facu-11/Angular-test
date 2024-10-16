@@ -7,7 +7,7 @@
   
   padding: 5% 0;
 
-  background-color: var(--light-secondary-color);
+  /* background-color: var(--light-secondary-color); */
   
   display: flex;
   justify-content: flex-start; 
