@@ -2,15 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { phoneDetails } from '../../Core/iphoneDetails';
-import { CommonModule } from '@angular/common';
 import { ProductDataComponent } from '../product-data/product-data.component';
 
-interface Product {
-  name: string;
-  description: string;
-  price: string;
-  image: string;
-}
 
 @Component({
   selector: 'app-product-container',
@@ -46,9 +39,6 @@ export class ProductContainerComponent {
   constructor(private data:StaticDataSvService ){
     this.phonesDetails=data.getData();
   }
-
-  currentSlide = 0;
-  isMobileView = false;
 
   ngOnInit() {
     // this.products = this.allProducts.razr; // Mostrar productos de la familia Razr por defecto
