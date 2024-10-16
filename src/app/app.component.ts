@@ -20,8 +20,9 @@ import { ProductContainerComponent } from './sec-products/product-container/prod
 
 @Component({
   selector: 'app-root',
-  standalone : true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,ComparatorComponentComponent,ProductContainerComponent,FaqComponent],
+
+  standalone:true,
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,ComparatorComponentComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

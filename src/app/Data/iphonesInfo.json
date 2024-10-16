@@ -1,93 +1,102 @@
 [
-    {
-      "model": "iPhone 15",
-      "camera": "48 MP",
-      "storage": "128 GB",
-      "battery": "20 horas de reproducción de video",
-      "display": "Pantalla OLED de 6.1 pulgadas",
-      "colors": ["Negro", "Azul", "Rojo"],
-      "price": "$799"
-    },
-    {
-      "model": "iPhone 15 Pro",
-      "camera": "48 MP (Principal) + 12 MP (Ultra Gran Angular)",
-      "storage": "256 GB",
-      "battery": "23 horas de reproducción de video",
-      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
-      "colors": ["Plata", "Grafito"],
-      "price": "$999"
-    },
-    {
-      "model": "iPhone 14",
-      "camera": "12 MP Dual",
-      "storage": "128 GB",
-      "battery": "19 horas de reproducción de video",
-      "display": "Pantalla OLED de 6.1 pulgadas",
-      "colors": ["Blanco", "Verde", "Púrpura"],
-      "price": "$699"
-    },
-    {
-      "model": "iPhone 14 Pro",
-      "camera": "48 MP (Principal) + 12 MP (Teleobjetivo)",
-      "storage": "256 GB",
-      "battery": "22 horas de reproducción de video",
-      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
-      "colors": ["Negro", "Plata"],
-      "price": "$1099"
-    },
-    {
-      "model": "iPhone 13",
-      "camera": "12 MP Dual",
-      "storage": "128 GB",
-      "battery": "17 horas de reproducción de video",
-      "display": "Pantalla OLED de 6.1 pulgadas",
-      "colors": ["Rosa", "Medianoche"],
-      "price": "$599"
-    },
-    {
-      "model": "iPhone 13 Mini",
-      "camera": "12 MP Dual",
-      "storage": "128 GB",
-      "battery": "15 horas de reproducción de video",
-      "display": "Pantalla OLED de 5.4 pulgadas",
-      "colors": ["Rojo", "Azul"],
-      "price": "$499"
-    },
-    {
-      "model": "iPhone 12",
-      "camera": "12 MP Dual",
-      "storage": "64 GB",
-      "battery": "17 horas de reproducción de video",
-      "display": "Pantalla OLED de 6.1 pulgadas",
-      "colors": ["Negro", "Blanco"],
-      "price": "$499"
-    },
-    {
-      "model": "iPhone SE (2022)",
-      "camera": "12 MP",
-      "storage": "64 GB",
-      "battery": "15 horas de reproducción de video",
-      "display": "Pantalla Retina HD de 4.7 pulgadas",
-      "colors": ["Rojo", "Blanco"],
-      "price": "$429"
-    },
-    {
-      "model": "iPhone 11",
-      "camera": "12 MP Dual",
-      "storage": "128 GB",
-      "battery": "17 horas de reproducción de video",
-      "display": "Pantalla Liquid Retina de 6.1 pulgadas",
-      "colors": ["Negro", "Verde"],
-      "price": "$499"
-    },
-    {
-      "model": "iPhone XR",
-      "camera": "12 MP",
-      "storage": "64 GB",
-      "battery": "16 horas de reproducción de video",
-      "display": "Pantalla Liquid Retina de 6.1 pulgadas",
-      "colors": ["Azul", "Coral"],
-      "price": "$399"
-    }
-  ]
-  
+  {
+    "family": 15,
+    "model": "iPhone 15",
+    "camera": "48 MP",
+    "storage": "128 GB",
+    "battery": "20 horas de reproducción de video",
+    "display": "Pantalla OLED de 6.1 pulgadas",
+    "colors": ["Negro", "Azul", "Rojo"],
+    "price": "$799"
+  },
+  {
+    "family": 15,
+    "model": "iPhone 15 Pro",
+    "camera": "48 MP (Principal) + 12 MP (Ultra Gran Angular)",
+    "storage": "256 GB",
+    "battery": "23 horas de reproducción de video",
+    "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+    "colors": ["Plata", "Grafito"],
+    "price": "$999"
+  },
+  {
+    "family": 14,
+    "model": "iPhone 14",
+    "camera": "12 MP Dual",
+    "storage": "128 GB",
+    "battery": "19 horas de reproducción de video",
+    "display": "Pantalla OLED de 6.1 pulgadas",
+    "colors": ["Blanco", "Verde", "Púrpura"],
+    "price": "$699"
+  },
+  {
+    "family": 14,
+    "model": "iPhone 14 Pro",
+    "camera": "48 MP (Principal) + 12 MP (Teleobjetivo)",
+    "storage": "256 GB",
+    "battery": "22 horas de reproducción de video",
+    "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+    "colors": ["Negro", "Plata"],
+    "price": "$1099"
+  },
+  {
+    "family": 13,
+    "model": "iPhone 13",
+    "camera": "12 MP Dual",
+    "storage": "128 GB",
+    "battery": "17 horas de reproducción de video",
+    "display": "Pantalla OLED de 6.1 pulgadas",
+    "colors": ["Rosa", "Medianoche"],
+    "price": "$599"
+  },
+  {
+    "family": 13,
+    "model": "iPhone 13 Mini",
+    "camera": "12 MP Dual",
+    "storage": "128 GB",
+    "battery": "15 horas de reproducción de video",
+    "display": "Pantalla OLED de 5.4 pulgadas",
+    "colors": ["Rojo", "Azul"],
+    "price": "$499"
+  },
+  {
+    "family": 12,
+    "model": "iPhone 12",
+    "camera": "12 MP Dual",
+    "storage": "64 GB",
+    "battery": "17 horas de reproducción de video",
+    "display": "Pantalla OLED de 6.1 pulgadas",
+    "colors": ["Negro", "Blanco"],
+    "price": "$499"
+  },
+  {
+    "family": 10,
+    "model": "iPhone SE (2022)",
+    "camera": "12 MP",
+    "storage": "64 GB",
+    "battery": "15 horas de reproducción de video",
+    "display": "Pantalla Retina HD de 4.7 pulgadas",
+    "colors": ["Rojo", "Blanco"],
+    "price": "$429"
+  },
+  {
+    "family": 11,
+    "model": "iPhone 11",
+    "camera": "12 MP Dual",
+    "storage": "128 GB",
+    "battery": "17 horas de reproducción de video",
+    "display": "Pantalla Liquid Retina de 6.1 pulgadas",
+    "colors": ["Negro", "Verde"],
+    "price": "$499"
+  },
+  {
+    "family": 10,
+    "model": "iPhone XR",
+    "camera": "12 MP",
+    "storage": "64 GB",
+    "battery": "16 horas de reproducción de video",
+    "display": "Pantalla Liquid Retina de 6.1 pulgadas",
+    "colors": ["Azul", "Coral"],
+    "price": "$399"
+  }
+]

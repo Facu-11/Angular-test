@@ -1,9 +1,8 @@
 
-
 <div class="product-card">
-    <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Imagen del producto" />
-    <h3>{{ phoneInput().model }}</h3>
-    <p>{{ phoneInput().camera }}</p>
-    <p class="price">{{ phoneInput().price }}</p>
+    <!-- <img [src]="phoneDetais()" alt="Imagen del producto" /> -->
+    <h3>{{ phoneDetails().model }}</h3>
+    <p>{{ phoneDetails().display }}</p>
+    <p class="price">{{ phoneDetails().price }}</p>
     <button>Comprar</button>
-  </div>
+</div>

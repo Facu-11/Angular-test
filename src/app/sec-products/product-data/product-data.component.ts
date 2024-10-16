@@ -1,5 +1,4 @@
 import { Component, input } from '@angular/core';
-import { PhoneDetailsComponent } from '../../phoneComparator-page/templates/phone-details/phone-details.component';
 import { phoneDetails } from '../../Core/iphoneDetails';
 
 @Component({
@@ -10,7 +9,7 @@ import { phoneDetails } from '../../Core/iphoneDetails';
   styleUrl: './product-data.component.css'
 })
 export class ProductDataComponent {
-
-  phoneInput = input.required <phoneDetails>();
-
+  phoneDetails= input.required<phoneDetails>();
+  
+  
 }

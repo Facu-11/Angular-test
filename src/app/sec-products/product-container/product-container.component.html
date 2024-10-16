@@ -1,33 +1,33 @@
- <!-- Títulos de familia -->
- <div class="families">
-    <span (click)="filterProducts('razr')">IPHONE 14</span>
-    <span (click)="filterProducts('edge')">IPHONE 15</span>
-  </div>
 
-    <ul>
-        <li *ngFor="let product of filteredProducts">
-          {{ product.model }} - {{ product.camera }} - ${{ product.price }}
-        </li>
-    </ul>
-
-  <div class="normal-view" *ngIf="!isMobileView && family.length <= 3">
-
-    <app-product-data *ngFor="let product of family" [phoneInput]="product" ></app-product-data>
-
-
-  </div>
-
-
-  <!-- Modo carrusel -->
-  <div class="carousel" *ngIf="isMobileView || family.length > 3">
-    <!-- <button class="prev" (click)="prevSlide()">&#10094;</button> -->
-    <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
-      <div class="carousel-item" *ngFor="let product of family">
-
-
-      </div>
+<div class="product-container">
+    <!-- Títulos de familia -->
+    <div class="families">
+      <span (click)="fnfiltro(10)">FAMILIA X</span>
+      <span (click)="fnfiltro(11)">FAMILIA 11</span>
+      <span (click)="fnfiltro(12)">FAMILIA 12</span>
+      <span (click)="fnfiltro(13)">FAMILIA 13</span>
+      <span (click)="fnfiltro(14)">FAMILIA 14</span>
     </div>
-    
-    <button class="next" (click)="nextSlide()">&#10095;</button>
-    <button class="prev" (click)="prevSlide()">&#10096;</button>
+  
+    <!-- Modo normal (productos uno al lado del otro) -->
+    <div class="normal-view" *ngIf="!isMobileView && phonesFamily.length <= 3">
+        <app-product-data *ngFor="let phone of phonesFamily" [phoneDetails]="phone"></app-product-data>
+
+    </div>
+  
+    <!-- Modo carrusel -->
+    <div class="carousel" *ngIf="isMobileView || phonesFamily.length > 3">
+      <!-- <button class="prev" (click)="prevSlide()">&#10094;</button> -->
+      
+      <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
+        <div class="carousel-item" *ngFor="let phone of phonesFamily">
+
+            <app-product-data [phoneDetails]="phone"></app-product-data>
+
+        </div>
+      </div>
+<!--       
+      <button class="next" (click)="nextSlide()">&#10095;</button>
+      <button class="prev" (click)="prevSlide()">&#10096;</button> -->
+    </div>
   </div>

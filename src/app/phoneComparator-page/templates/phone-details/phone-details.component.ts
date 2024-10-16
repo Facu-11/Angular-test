@@ -11,6 +11,7 @@ import { phoneDetails } from '../../../Core/iphoneDetails';
 export class PhoneDetailsComponent {
 
   phone:phoneDetails ={
+    family:0,
     model: 'null',
     camera: '',
     storage: '',
