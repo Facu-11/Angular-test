@@ -18,8 +18,8 @@ import { ComparatorComponentComponent } from './phoneComparator-page/comparator-
 
 @Component({
   selector: 'app-root',
+  standalone:true,
   imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,ComparatorComponentComponent],
-
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

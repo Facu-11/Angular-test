@@ -20,6 +20,4 @@ export class WhatsappComponent {
   isStuck=false;
   almendra:number = 0;
   
-  
-
 }

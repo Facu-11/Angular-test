@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { phoneDetails } from '../../Core/iphoneDetails';
 
 @Component({
   selector: 'app-product-data',
@@ -8,5 +9,8 @@ import { Component } from '@angular/core';
   styleUrl: './product-data.component.css'
 })
 export class ProductDataComponent {
+
+
+  phoneDetails= input.required<phoneDetails>();
 
 }

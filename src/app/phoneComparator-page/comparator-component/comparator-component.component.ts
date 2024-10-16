@@ -23,6 +23,7 @@ export class ComparatorComponentComponent{
   }
 
   emptyPhoneDetails:phoneDetails={
+    family:0,
     model: '',
     camera: '',
     storage: '',
