@@ -1,7 +1,8 @@
 header {
     width: 100%;
-    background-color: var(--light-fourty-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* background-color: var(--light-fourty-color); */
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 
     position: sticky;
     top: 0;
@@ -13,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 10px 20px;
+    padding: 5px 15px;
 }
 
 .logo img {
@@ -34,7 +35,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
     padding: 8px 12px;
     transition: color 0.3s ease;
@@ -54,7 +55,7 @@ nav ul li a:hover {
     text-align: right;
     padding: 10px;
 
-    color: #fff;
+    color: #000;
 }
 
 /* Media queries para pantallas pequeñas */
@@ -87,7 +88,8 @@ nav ul li a:hover {
         top:0;
 
         padding: 20px;
-        background-color: var(--light-fourty-color); 
+        /* background-color: var(--light-fourty-color);  */
+        background-color: #fff;
     }
     
     nav div{
