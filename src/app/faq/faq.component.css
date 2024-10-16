@@ -1,0 +1,84 @@
+/* Estilos generales de la sección FAQ */
+.faq-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 2.2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+details {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  /* border-radius: 8px; */
+  padding: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+details[open] {
+  background-color: #f1f1f1;
+}
+
+details summary {
+  font-size: 1.3em;
+  font-weight: lighter;
+  list-style: none;
+  outline: none;
+  position: relative;
+}
+
+details summary::after {
+  content: '+';
+  font-size: 1.2em;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: '-';
+}
+
+details p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .faq-section {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  details summary {
+    font-size: 1.1em;
+  }
+
+  details p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  details summary {
+    font-size: 1em;
+  }
+
+  details p {
+    font-size: 0.85em;
+  }
+}

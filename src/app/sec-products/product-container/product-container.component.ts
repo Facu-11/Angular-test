@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { phoneDetails } from '../../Core/iphoneDetails';
@@ -19,6 +20,9 @@ interface Product {
   styleUrl: './product-container.component.css'
 })
 export class ProductContainerComponent {
+  currentSlide = 0;
+  isMobileView = false;
+
 
   /*
   products: Product[] = []; // Aquí usamos la interfaz Product

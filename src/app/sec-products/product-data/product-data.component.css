@@ -1,3 +1,4 @@
+
 .product-card {
     background: #f7f7f7;
     padding: 20px;
@@ -28,8 +29,6 @@ button {
     cursor: pointer;
 }
 
-
-
 @media (max-width: 768px) {
     .normal-view {
         display: none;
@@ -39,3 +38,4 @@ button {
         min-width: 100%;
     }
 }
+=======

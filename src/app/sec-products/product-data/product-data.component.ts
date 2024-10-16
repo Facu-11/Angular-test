@@ -9,8 +9,7 @@ import { phoneDetails } from '../../Core/iphoneDetails';
   styleUrl: './product-data.component.css'
 })
 export class ProductDataComponent {
-
-
   phoneDetails= input.required<phoneDetails>();
-
+  
+  
 }

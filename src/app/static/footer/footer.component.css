@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--light-fourty-color);
+    /* background-color: var(--light-fourty-color); */
+    background-color: #001233;
     padding: 20px 40px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;

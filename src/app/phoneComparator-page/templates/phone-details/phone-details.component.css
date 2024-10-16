@@ -3,7 +3,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    border: 1px solid blue;
+    /* border: 1px solid #ccc; */
 }
 
 
@@ -51,3 +51,12 @@ h2 {
         flex-basis: 100%;
     }
 } */
+
+
+
+
+
+
+
+
+
