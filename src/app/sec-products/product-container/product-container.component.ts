@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { ProductDataComponent } from '../product-data/product-data.component';
@@ -13,78 +13,84 @@ import { ProductDataComponent } from '../product-data/product-data.component';
   styleUrl: './product-container.component.css'
 })
 export class ProductContainerComponent {
-  currentSlide = 0;
-  isMobileView = false;
 
+  titlesCarrouselPosition:number = 0;
+  phonesCarrouselPosition:number = 0;
 
-  /*
-  products: Product[] = []; // Aquí usamos la interfaz Product
-  allProducts: { razr: Product[], edge: Product[] } = {
-    razr: [
-      { name: 'Motorola Razr 50 Ultra', description: 'Pantalla externa de 4” y 165 Hz', price: '$ 1.999.999', image: 'path_to_image1' },
-      { name: 'Motorola Razr 40', description: 'Pantalla externa de 4"', price: '$ 1.499.999', image: 'path_to_image2' },
-      { name: 'Motorola Razr 2023', description: 'Pantalla externa de 4"', price: '$ 1.299.999', image: 'path_to_image3' }
-    ],
-    edge: [
-      { name: 'Motorola Edge 30', description: 'Cámara y rendimiento increíbles', price: '$ 1.899.999', image: 'path_to_image4' },
-      { name: 'Motorola Edge 40', description: 'Pantalla OLED de 144 Hz', price: '$ 1.799.999', image: 'path_to_image5' },
-      { name: 'Motorola Edge 50', description: 'Carga rápida y batería duradera', price: '$ 1.699.999', image: 'path_to_image6' }
-    ]
-  };
-  */
+  isMobileView:boolean = false;
 
   phonesDetails:Array<phoneDetails>=[]
   phonesFamily: Array<phoneDetails>=[]
 
-  constructor(private data:StaticDataSvService ){
+  objPhoneCardInfo={"width":400};
+  
+  /* bar menu */
+  hover:boolean = false;
+
+  /* click style*/
+  varLastBtnPressed:number=0;
+  arButtons:Array<boolean>=[false,false,false,false,false,false]; 
+  
+  constructor(private data:StaticDataSvService){
     this.phonesDetails=data.getData();
   }
 
   ngOnInit() {
-    // this.products = this.allProducts.razr; // Mostrar productos de la familia Razr por defecto
-    // this.checkMobileView();
+
+    this.fnfiltro(11,0);
+
   }
 
-  fnfiltro(selectedFamily:number){
+  fnReadScreenInfo(){
+    if(window.innerWidth>600){
+      this.objPhoneCardInfo.width=400;
+    }else if(window.innerWidth<=600){
+      this.objPhoneCardInfo.width=window.innerWidth;
+    }
+  }
+
+  fnGetElementWidth(width:number){
+    this.objPhoneCardInfo.width=width;
+  }
+
+  fnfiltro(selectedFamily:number, btnNum:number){
+
     this.phonesFamily=this.phonesDetails.filter((phone)=>{
-     return phone.family == selectedFamily
+     return phone.family == selectedFamily;
     })
 
-    // console.log(this.phonesDetails.filter((phone)=>{
-    //   return phone.family == 10
-    //   // console.log(phone.family+" "+ selectedFamily)
-    //  }))
+    this.arButtons.fill(false);
+    this.arButtons[btnNum]=!this.arButtons[btnNum];
+  }
+
+  /* titles carrousel*/
+  fnDesplAder(){
+    this.titlesCarrouselPosition = this.titlesCarrouselPosition>=100? this.titlesCarrouselPosition:this.titlesCarrouselPosition+=100; 
+  }
+
+  fnDesplAizq(){
+    this.titlesCarrouselPosition=this.titlesCarrouselPosition<=(window.innerWidth-(300*4))?this.titlesCarrouselPosition:this.titlesCarrouselPosition-=100
+  }
+
+  fnHover(value:boolean){
+    this.hover = value;
   }
 
 
-  // @HostListener('window:resize', ['$event'])
-  // onResize() {
-  //   this.checkMobileView();
-  // }
+  /* phones carrousel*/
 
-  // checkMobileView() {
-  //   this.isMobileView = window.innerWidth <= 768;
-  // }
 
-  // nextSlide() {
-  //   if (this.currentSlide < this.products.length - 1) {
-  //     this.currentSlide++;
-  //   } else {
-  //     this.currentSlide = 0; // Regresa al primer producto si está en el último
-  //   }
-  // }
+  fnDespPhonCarroLeft(){
+    this.phonesCarrouselPosition=this.phonesCarrouselPosition>=0?this.phonesCarrouselPosition:this.phonesCarrouselPosition+=this.objPhoneCardInfo.width; 
+  }
 
-  // prevSlide() {
-  //   if (this.currentSlide > 0) {
-  //     this.currentSlide--;
-  //   } else {
-  //     this.currentSlide = this.products.length - 1; // Va al último producto si está en el primero
-  //   }
-  // }
-
-  // showFamily(family: 'razr' | 'edge') {
-  //   this.products = this.allProducts[family];
-  //   this.currentSlide = 0; // Reiniciar el carrusel
-  // }
   
+  fnDespPhonCarroRight(){
+    this.phonesCarrouselPosition=this.phonesCarrouselPosition<=
+    (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-2)))
+    ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
+
+  }
+
+
 }
