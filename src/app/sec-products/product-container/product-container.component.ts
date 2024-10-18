@@ -87,7 +87,7 @@ export class ProductContainerComponent {
   
   fnDespPhonCarroRight(){
     this.phonesCarrouselPosition=this.phonesCarrouselPosition<=
-    (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-2)))
+    (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-1)))
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
 
   }

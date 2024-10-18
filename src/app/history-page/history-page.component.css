@@ -1,14 +1,16 @@
 /* Estilo general de la sección de historia */
 .company-history {
-    background-color: #001233; /* Fondo claro, limpio y moderno */
+    width: 100%;
+    height: 100%;
+    background-color: #001233;
     padding: 50px 20px;
-    text-align: center;
+
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #333;
 }
 
 .history-container {
-    max-width: 800px;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -16,15 +18,16 @@
     font-size: 2.5rem;
     font-weight: 600;
     color: #fdfcfc;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+
+    text-align: center;
 }
 
 .company-history p {
-    font-size: 1.5rem;
+    font-size: 1.6em;
     line-height: 1.6;
     margin-bottom: 20px;
     color: #fdfcfc;
-
 }
 
 /* Responsivo */
