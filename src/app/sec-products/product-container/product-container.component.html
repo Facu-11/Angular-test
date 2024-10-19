@@ -1,33 +1,59 @@
-
 <div class="product-container">
-    <!-- Títulos de familia -->
-    <div class="families">
-      <span (click)="fnfiltro(10)">FAMILIA X</span>
-      <span (click)="fnfiltro(11)">FAMILIA 11</span>
-      <span (click)="fnfiltro(12)">FAMILIA 12</span>
-      <span (click)="fnfiltro(13)">FAMILIA 13</span>
-      <span (click)="fnfiltro(14)">FAMILIA 14</span>
-    </div>
-  
-    <!-- Modo normal (productos uno al lado del otro) -->
-    <div class="normal-view" *ngIf="!isMobileView && phonesFamily.length <= 3">
-        <app-product-data *ngFor="let phone of phonesFamily" [phoneDetails]="phone"></app-product-data>
+  <!-- Títulos de familia -->
+  <div class="families" (mouseenter)="fnHover(true)" (mouseleave)="fnHover(false)">
+    <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAder()">&#8249;</div>
 
-    </div>
-  
-    <!-- Modo carrusel -->
-    <div class="carousel" *ngIf="isMobileView || phonesFamily.length > 3">
-      <!-- <button class="prev" (click)="prevSlide()">&#10094;</button> -->
-      
-      <div class="carousel-track" [style.transform]="'translateX(-' + currentSlide * 100 + '%)'">
-        <div class="carousel-item" *ngFor="let phone of phonesFamily">
+    <div class="title-carousel-container">
 
-            <app-product-data [phoneDetails]="phone"></app-product-data>
-
+      <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
+    }'>
+        <div class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(11+i,i)"
+          [ngClass]="{'pressed':arButtons[i]}">
+          iPhone {{11+i}}
         </div>
+
       </div>
-<!--       
-      <button class="next" (click)="nextSlide()">&#10095;</button>
-      <button class="prev" (click)="prevSlide()">&#10096;</button> -->
+
     </div>
+
+    <div [ngClass]="{'families-carrousel-btn':true, 'hover':hover}" (click)="fnDesplAizq()">&#8250;</div>
+
   </div>
+
+  <!-- Modo normal (productos uno al lado del otro) -->
+  <div class="normal-view">
+
+    <div class="phones-slider-button left" (click)="fnDespPhonCarroLeft()">&#8249;</div>
+
+    <div class="slider-box-container-phones">
+      <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
+        <app-product-data class="phone-card" *ngFor="let phone of phonesFamily"
+          [phoneDetails]="phone"
+          (elementWidth)="fnGetElementWidth($event)"
+          >&#8250;</app-product-data>
+    
+      </div>
+    </div>
+    <div class="phones-slider-button right" (click)="fnDespPhonCarroRight()">&#8250;</div>
+  </div>
+
+
+
+  <!-- Modo carrusel -->
+  <!-- <div class="carousel" *ngIf="isMobileView || phonesFamily.length > 3"> -->
+  <div class="carousel" *ngIf="false">
+    <!-- <button class="prev" (click)="prevSlide()">&#10094;</button> -->
+
+    <div class="carousel-track" [style.transform]="'translateX(-' + titlesCarrouselPosition * 100 + '%)'">
+      <div class="carousel-item" *ngFor="let phone of phonesFamily">
+
+        <app-product-data [phoneDetails]="phone"></app-product-data>
+
+      </div>
+    </div>
+
+    <button class="next">&#10095;</button>
+    <button class="prev">&#10096;</button>
+
+  </div>
+</div>

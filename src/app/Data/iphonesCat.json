@@ -1,0 +1,464 @@
+[
+    {
+      "family": 10,
+      "model": "iPhone X",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "13 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 5.8 pulgadas",
+      "colors": ["Plata", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XS",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "14 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 5.8 pulgadas",
+      "colors": ["Plata", "Oro", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XS Max",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "15 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 6.5 pulgadas",
+      "colors": ["Plata", "Oro", "Gris Espacial"],
+      "price": "$1099"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XR",
+      "camera": "12 MP",
+      "storage": "64 GB",
+      "battery": "16 horas de reproducción de video",
+      "display": "Pantalla Liquid Retina LCD de 6.1 pulgadas",
+      "colors": ["Azul", "Coral", "Negro", "Blanco", "Rojo", "Amarillo"],
+      "price": "$749"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Liquid Retina LCD de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Amarillo", "Púrpura"],
+      "price": "$699"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "64 GB",
+      "battery": "18 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.8 pulgadas",
+      "colors": ["Verde Medianoche", "Plata", "Oro", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "64 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.5 pulgadas",
+      "colors": ["Verde Medianoche", "Plata", "Oro", "Gris Espacial"],
+      "price": "$1099"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Azul", "Púrpura"],
+      "price": "$799"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Mini",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "15 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.4 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Azul", "Púrpura"],
+      "price": "$699"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "18 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Plata", "Grafito", "Oro", "Azul Pacífico"],
+      "price": "$999"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Plata", "Grafito", "Oro", "Azul Pacífico"],
+      "price": "$1099"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "19 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Rosa", "Verde"],
+      "price": "$799"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Mini",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.4 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Rosa", "Verde"],
+      "price": "$699"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "22 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Grafito", "Oro", "Plata", "Verde Alpino"],
+      "price": "$999"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "28 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Grafito", "Oro", "Plata", "Verde Alpino"],
+      "price": "$1099"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Púrpura", "Amarillo"],
+      "price": "$799"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Plus",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "26 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Púrpura", "Amarillo"],
+      "price": "$899"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Pro",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "23 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro Espacial", "Plata", "Oro", "Púrpura Oscuro"],
+      "price": "$999"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Pro Max",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "29 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro Espacial", "Plata", "Oro", "Púrpura Oscuro"],
+      "price": "$1099"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15",
+      "camera": "48 MP",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Azul", "Verde", "Amarillo", "Rosa"],
+      "price": "$799"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Plus",
+      "camera": "48 MP",
+      "storage": "128 GB",
+      "battery": "26 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro", "Azul", "Verde", "Amarillo", "Rosa"],
+      "price": "$899"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Pro",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "23 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Titanio Natural", "Titanio Azul", "Titanio Blanco", "Titanio Negro"],
+      "price": "$999"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Pro Max",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "29 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Titanio Natural", "Titanio Azul", "Titanio Blanco", "Titanio Negro"],
+      "price": "$1199"
+    },
+    {
+      "family": 10,
+      "model": "iPhone X",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "13 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 5.8 pulgadas",
+      "colors": ["Plata", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XS",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "14 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 5.8 pulgadas",
+      "colors": ["Plata", "Oro", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XS Max",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "15 horas de reproducción de video",
+      "display": "Pantalla Super Retina OLED de 6.5 pulgadas",
+      "colors": ["Plata", "Oro", "Gris Espacial"],
+      "price": "$1099"
+    },
+    {
+      "family": 10,
+      "model": "iPhone XR",
+      "camera": "12 MP",
+      "storage": "64 GB",
+      "battery": "16 horas de reproducción de video",
+      "display": "Pantalla Liquid Retina LCD de 6.1 pulgadas",
+      "colors": ["Azul", "Coral", "Negro", "Blanco", "Rojo", "Amarillo"],
+      "price": "$749"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Liquid Retina LCD de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Amarillo", "Púrpura"],
+      "price": "$699"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "64 GB",
+      "battery": "18 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.8 pulgadas",
+      "colors": ["Verde Medianoche", "Plata", "Oro", "Gris Espacial"],
+      "price": "$999"
+    },
+    {
+      "family": 11,
+      "model": "iPhone 11 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "64 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.5 pulgadas",
+      "colors": ["Verde Medianoche", "Plata", "Oro", "Gris Espacial"],
+      "price": "$1099"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Azul", "Púrpura"],
+      "price": "$799"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Mini",
+      "camera": "12 MP Dual",
+      "storage": "64 GB",
+      "battery": "15 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.4 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Verde", "Azul", "Púrpura"],
+      "price": "$699"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "18 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Plata", "Grafito", "Oro", "Azul Pacífico"],
+      "price": "$999"
+    },
+    {
+      "family": 12,
+      "model": "iPhone 12 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Plata", "Grafito", "Oro", "Azul Pacífico"],
+      "price": "$1099"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "19 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Rosa", "Verde"],
+      "price": "$799"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Mini",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "17 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 5.4 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Rosa", "Verde"],
+      "price": "$699"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Pro",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "22 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Grafito", "Oro", "Plata", "Verde Alpino"],
+      "price": "$999"
+    },
+    {
+      "family": 13,
+      "model": "iPhone 13 Pro Max",
+      "camera": "12 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "28 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Grafito", "Oro", "Plata", "Verde Alpino"],
+      "price": "$1099"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Púrpura", "Amarillo"],
+      "price": "$799"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Plus",
+      "camera": "12 MP Dual",
+      "storage": "128 GB",
+      "battery": "26 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro", "Blanco", "Rojo", "Azul", "Púrpura", "Amarillo"],
+      "price": "$899"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Pro",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "23 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro Espacial", "Plata", "Oro", "Púrpura Oscuro"],
+      "price": "$999"
+    },
+    {
+      "family": 14,
+      "model": "iPhone 14 Pro Max",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "29 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro Espacial", "Plata", "Oro", "Púrpura Oscuro"],
+      "price": "$1099"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15",
+      "camera": "48 MP",
+      "storage": "128 GB",
+      "battery": "20 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Negro", "Azul", "Verde", "Amarillo", "Rosa"],
+      "price": "$799"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Plus",
+      "camera": "48 MP",
+      "storage": "128 GB",
+      "battery": "26 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Negro", "Azul", "Verde", "Amarillo", "Rosa"],
+      "price": "$899"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Pro",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "23 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.1 pulgadas",
+      "colors": ["Titanio Natural", "Titanio Azul", "Titanio Blanco", "Titanio Negro"],
+      "price": "$999"
+    },
+    {
+      "family": 15,
+      "model": "iPhone 15 Pro Max",
+      "camera": "48 MP Triple (Principal, Ultra Gran Angular, Teleobjetivo)",
+      "storage": "128 GB",
+      "battery": "29 horas de reproducción de video",
+      "display": "Pantalla Super Retina XDR de 6.7 pulgadas",
+      "colors": ["Titanio Natural", "Titanio Azul", "Titanio Blanco", "Titanio Negro"],
+      "price": "$1199"
+    }
+  ]
+  
+  

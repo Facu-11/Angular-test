@@ -17,9 +17,18 @@
 }
 
 /* styles banner img*/
+
+/* 
 .img-carrousel{
   width: 90vw;
   height: 75vh;
+  margin: 2% auto;
+} 
+*/
+
+.img-carrousel{
+  width: 100vw;
+  height: 100vh;
   margin: 2% auto;
 
 }

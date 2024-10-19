@@ -21,11 +21,18 @@ export class BannerComponent {
   private _changeDetector = inject(ChangeDetectorRef);
   private _applicationRef = inject(ApplicationRef);
 
+  // imgs: photoObj = {
+  //   url: '/static_imgs/banners/banner_dark.png',
+  //   title: 'Banner Dark',
+  //   alt: 'Dark banner'
+  // };
+
   imgs: photoObj = {
-    url: '/static_imgs/banners/banner_dark.png',
-    title: 'Banner Dark',
-    alt: 'Dark banner'
-  };;
+    url: '/static_imgs/banners/banner_light2.png',
+    title: 'Banner White',
+    alt: 'Lighting banner'
+  }
+
 
   phones: Array<photoObj> = [
   {
