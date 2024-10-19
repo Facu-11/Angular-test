@@ -1,15 +1,10 @@
 <div class="product-page">
-  <div class="product-images">
-    <div class="main-image-container">
-      <img class="main-image" src="https://picsum.photos/400/400?random=1" loading="lazy" alt="iPhone Imagen Principal">
-    </div>
-    <div class="thumbnail-container">
-      <img src="https://picsum.photos/400/400?random=1" loading="lazy" class="thumbnail" alt="Miniatura 1">
-      <img src="https://picsum.photos/400/400?random=1" loading="lazy" class="thumbnail" alt="Miniatura 2">
-    </div>
-  </div>
+  <app-product-gallery [product]="product"></app-product-gallery>
+</div>
 
-  <!-- <div class="product-images">
+
+
+<!-- <div class="product-images">
     <div class="main-image-container">
       <img [src]="mainImage" class="main-image" alt="iPhone Imagen Principal">
     </div>
@@ -21,40 +16,3 @@
            alt="Miniatura">
     </div>
   </div> -->
-
-
-  <div class="product-info">
-    <h1>Apple iPhone 13 A2482 (Desbloqueado en EE.UU.) Azul</h1>
-    <p class="shipping-restriction">Este artículo solo se puede enviar dentro de territorio continental de los Estados Unidos.</p>
-
-    <div class="product-options">
-      <label for="size">Tamaño:</label>
-      <select id="size">
-        <option>Todo</option>
-        <option>64GB</option>
-        <option>128GB</option>
-        <option>256GB</option>
-      </select>
-    </div>
-
-
-    <div class="color-selection">
-      <p>Colores disponibles:</p>
-      <div class="color-options">
-        <button class="color-button" (click)="onColorChange('blue')" [ngClass]="{'selected': selectedColor === 'blue'}" style="background-color: blue;"></button>
-        <button class="color-button" (click)="onColorChange('red')" [ngClass]="{'selected': selectedColor === 'red'}" style="background-color: red;"></button>
-        <button class="color-button" (click)="onColorChange('green')" [ngClass]="{'selected': selectedColor === 'green'}" style="background-color: green;"></button>
-        <button class="color-button" (click)="onColorChange('black')" [ngClass]="{'selected': selectedColor === 'black'}" style="background-color: black;"></button>
-      </div>
-    </div>
-
-
-    <div class="product-bid">
-      <p>No hay ofertas en este momento, pero puedes hacer una puja o esperar a que un vendedor nuevo iguale tu precio.</p>
-      <button class="bid-button">Hacer puja</button>
-    </div>
-
-    <p class="last-sold">Última venta: USD $392</p>
-    <p class="buy-now">Compra ahora por USD $364 o crea una oferta para pedir más.</p>
-  </div>
-</div>

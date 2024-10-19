@@ -18,11 +18,10 @@ import { ProductGalleryComponent } from '../product/product-gallery/product-gall
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent,FooterComponent,BannerComponent,
-    HistoryPageComponent,InfoProdructsComponent,InfoPayComponent,BannerComponent,
-  ThemeToggleComponent,WhatsappComponent,AllProductsComponent,ProductDataComponent
-  ,BannerProductsComponent,ProductPageComponent,ProductGalleryComponent,ProductContainerComponent
-],
+  imports: [HeaderComponent, FooterComponent, BannerComponent,
+    HistoryPageComponent, InfoProdructsComponent, InfoPayComponent, BannerComponent,
+    ThemeToggleComponent, WhatsappComponent, AllProductsComponent, ProductDataComponent,
+    BannerProductsComponent, ProductPageComponent, ProductGalleryComponent, ProductContainerComponent, FaqComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
