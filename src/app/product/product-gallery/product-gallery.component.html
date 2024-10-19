@@ -1,0 +1,186 @@
+<section class="big-boss">
+
+<div class="imag-y-info">
+
+  <div class="product-images">
+    <div class="main-image-container">
+      <img class="main-image" [src]="product.mainImage" loading="lazy" alt="Imagen Principal">
+    </div>
+    <div class="thumbnail-container">
+      <img *ngFor="let thumbnail of product.thumbnails" [src]="thumbnail" loading="lazy" class="thumbnail" alt="Miniatura">
+    </div>
+    
+  </div>
+
+  <!-- <div class="product-images">
+    <div class="main-image-container">
+      <img [src]="mainImage" class="main-image" alt="iPhone Imagen Principal">
+    </div>
+    <div class="thumbnail-container">
+      <img *ngFor="let thumbnail of thumbnails"
+           [src]="thumbnail"
+           class="thumbnail"
+           (click)="changeMainImage(thumbnail)"   
+           alt="Miniatura">
+    </div>
+  </div> -->
+
+
+  
+  <div class="product-info">
+    <h1>{{ product.name }}</h1>
+    <p class="shipping-restriction">Este artículo solo se puede enviar dentro de territorio continental de los Estados Unidos.</p>
+  
+    <div class="product-options">
+      <label for="size">Tamaño:</label>
+      <select id="size">
+        <option>Todo</option>
+        <option>64GB</option>
+        <option>128GB</option>
+        <option>256GB</option>
+      </select>
+    </div>
+  
+    <div class="color-selection">
+      <p>Colores disponibles:</p>
+      <div class="color-options">
+        <button *ngFor="let color of product.availableColors" class="color-button" (click)="onColorChange(color)" [ngClass]="{'selected': selectedColor === color}" [style.background-color]="color"></button>
+      </div>
+    </div>
+  
+    <div class="product-bid">
+      <p>No hay ofertas en este momento, pero puedes hacer una puja o esperar a que un vendedor nuevo iguale tu precio.</p>
+      <button class="bid-button">Consultar</button>
+      <button class="bid-button">Comparar</button>
+    </div>
+  
+    <p class="last-sold">Última venta: USD {{ product.lastSoldPrice }}</p>
+    <p class="buy-now">Compra ahora por USD {{ product.buyNowPrice }} o crea una oferta para pedir más.</p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div>
+    
+
+
+  <!-- titulo  y banner-->
+  
+  <div class="banner-container">
+    <div class="text-section">
+      <h1>Bisagra 'GOTA' sin espacios</h1>
+      <p>
+        El motorola razr 40 ultra es un teléfono moderno y flexible con un diseño clásico. 
+        Cuando se cierra, se dobla por completo a la mitad y los extremos se alinean perfectamente 
+        para crear un estilo atractivo y compacto que deja a la vista la pantalla externa más amplia 
+        hasta ahora. Cuando se abre, se puede observar la increíble pantalla pOLED de tamaño completo.
+      </p>
+    </div>
+    <div class="image-section">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Motorola Razr 40 Ultra">
+    </div>
+  </div>
+  
+  
+      
+      
+      
+  
+
+        
+      <!-- las tres fotitos -->
+  <div class="photos-container">
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 1">
+      <p>SIN MANOS</p>
+    </div>
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 2">
+      <p>MIRÁ LAS SELFIES DESDE UNA FORMA TOTALMENTE NUEVA</p>
+    </div>
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 3">
+      <p>APROVECHÁ LOS BENEFICIOS DEL TRÍPODE, PERO SIN ÉL</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+        
+  <!-- FAQ -->
+  <div class="faq-section">
+    <h2>Featured articles</h2>
+    <div class="faq-grid">
+      <div class="faq-column">
+        <h3>Checkout</h3>
+        <details>
+          <summary>How to Contact Etsy Support</summary>
+          <p>Explanation on how to contact Etsy support in case of issues.</p>
+        </details>
+        <details>
+          <summary>How to Purchase an Item On Etsy</summary>
+          <p>Steps to follow when making a purchase on Etsy.</p>
+        </details>
+       
+      </div>
+      <div class="faq-column">
+        <h3>Orders & Returns</h3>
+        <details>
+          <summary>Change a Wrong Shipping Address on an Order</summary>
+          <p>Instructions on changing a wrong address on your order.</p>
+        </details>
+        <details>
+          <summary>How to Track Your Etsy Order</summary>
+          <p>Learn how to track the status of your order.</p>
+        </details>
+        
+      </div>
+      <div class="faq-column">
+        <h3>Purchasing</h3>
+        <details>
+          <summary>How to Search for Items and Shops on Etsy</summary>
+          <p>Guide on how to effectively search for items and shops.</p>
+        </details>
+        <details>
+          <summary>COVID-19 Safety on Etsy</summary>
+          <p>Safety guidelines related to purchasing during COVID-19.</p>
+        </details>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <!-- formulario -->
+  <div class="subscribe-section">
+    <div class="subscribe-container">
+      <h2>Completa el fomulario para conocer mas sobre nosotros</h2>
+      <a href="https://forms.gle/tu-formulario-google" target="_blank" class="subscribe-btn">Ingresar</a>
+    </div>
+  </div>
+  
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+  

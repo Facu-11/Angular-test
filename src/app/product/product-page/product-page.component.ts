@@ -1,14 +1,32 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { ProductGalleryComponent } from "../product-gallery/product-gallery.component";
 
 @Component({
   selector: 'app-product-page',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ProductGalleryComponent],
   templateUrl: './product-page.component.html',
   styleUrl: './product-page.component.css'
 })
 export class ProductPageComponent {
+
+  product = {
+    name: 'Apple iPhone 13 A2482 (Desbloqueado en EE.UU.) Azul',
+    mainImage: 'https://picsum.photos/400/400?random=1',
+    thumbnails: [
+      'https://picsum.photos/400/400?random=1',
+      'https://picsum.photos/400/400?random=1',
+      'https://picsum.photos/400/400?random=1'
+
+
+    ],
+    lastSoldPrice: 392,
+    buyNowPrice: 364,
+    availableColors: ['blue', 'red', 'green', 'black']
+  };
+
+  
 
   selectedColor: string = 'blue'; // Color por defecto
   currentImage: string = 'assets/images/iphone-13-blue.png'; // Imagen por defecto
