@@ -35,16 +35,28 @@ export class ComparatorComponentComponent{
 
   userModelOne:string="";
   userModelTwo:string="";
+  userModelThree:string="";
+
 
   phoneModalOne:phoneDetails=this.emptyPhoneDetails;
   phoneModalTwo:phoneDetails=this.emptyPhoneDetails;
+  phoneModalThree:phoneDetails=this.emptyPhoneDetails;
+
 
   test(optSection:number){
     if(optSection==0){
       this.phoneModalOne = this.searchInData(this.userModelOne);
+    }
+    
+    else if(optSection==1){
+       this.phoneModalTwo = this.searchInData(this.userModelTwo);
+    }
 
-    }else if(optSection==1)
-      this.phoneModalTwo = this.searchInData(this.userModelTwo); 
+     else if(optSection==2){
+      this.phoneModalThree = this.searchInData(this.userModelThree);
+    }
+    
+      
   }
 
   searchInData(phoneModel:string):phoneDetails{
