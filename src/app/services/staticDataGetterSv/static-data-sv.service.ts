@@ -10,6 +10,7 @@ import phoneProductImg from  '../../Data/iphoneProductImg.json'
 
 
 import { phoneDetails } from '../../Core/iphoneDetails';
+import phoneProduct from '../../Data/iphoneProduct.json'
 import { IphoneProduct } from '../../Core/iphone-product';
 
 @Injectable({

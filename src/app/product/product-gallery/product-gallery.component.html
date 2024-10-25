@@ -1,36 +1,231 @@
 <app-header></app-header>
 
 <section class="big-boss">
-  <div>
-    <!-- titulo  y banner-->
+<div>
+    
 
-    <div class="banner-container">
-      <div class="text-section">
-        <h1>{{phone.modelo}}</h1>
-        <p>{{subTitulo}}</p>
+  <!-- titulo  y banner-->
+  <div class="product-page">
+    <!-- Contenedor principal de la galería de imágenes -->
+    <div class="product-gallery">
+      <!-- Imagen principal -->
+      <div class="main-image">
+        <img [src]="mainImageUrl" alt="Imagen principal del producto" />
       </div>
-      <div class="image-section">
-        <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Motorola Razr 40 Ultra">
+  
+      <!-- Carrusel de miniaturas -->
+      <div class="image-carousel">
+        <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
+    <div class="thumbnails-container">
+      <div class="thumbnail" *ngFor="let img of images; let i = index" (click)="setMainImage(i)">
+        <img [src]="img" [class.active]="i === selectedImageIndex" alt="Miniatura {{i + 1}}">
       </div>
     </div>
-
-
-
-    <!-- las tres fotitos -->
-    <div class="photos-container">
-      <div class="photo">
-        <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 1">
-        <p>SIN MANOS</p>
-      </div>
-      <div class="photo">
-        <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 2">
-        <p>MIRÁ LAS SELFIES DESDE UNA FORMA TOTALMENTE NUEVA</p>
-      </div>
-      <div class="photo">
-        <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 3">
-        <p>APROVECHÁ LOS BENEFICIOS DEL TRÍPODE, PERO SIN ÉL</p>
+    <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
       </div>
     </div>
+  
+    <!-- Información del producto (parte derecha) -->
+    <div class="product-details">
+      <h1>{{phone.modelo}}</h1>
+      <div class="env-gar">
+        <p>{{phone.pantalla.medidas}}</p>
+      <p><strong>Garantia Oficial</strong></p>
+      <p>Hasta 1 día hábil después de la aprobación del pago</p>
+      </div>
+      
+      <div class="button-section">
+        <p>Contacta con nostros para saber mas sobre el producto y su disponibilidad</p>
+        <button>Consultar</button>
+        <p>Compara este y otros productos mas!</p>
+        <button>Comparar</button>
+      </div>
+
+<!-- Sección de Color y Memoria debajo del botón de compra -->
+  <div class="product-options">
+  <!-- Opciones de color -->
+    <div class="color-options">
+      <h3>Color</h3>
+      <div class="color-circles">
+       <div class="color-circle cream" title="Cream"></div>
+        <div class="color-circle graphite" title="Graphite"></div>
+        <div class="color-circle lavender selected" title="Lavender"></div>
+        <div class="color-circle mint" title="Mint"></div>
+        <div class="color-circle blue" title="Blue"></div>
+      </div>
+   </div>
+  </div>
+
+    </div>
+  </div>
+  
+  
+
+
+  
+  
+  
+
+
+
+<!-- Especificaciones tecnicas -->
+<div class="tech-specs-section">
+  <h2>Especificaciones técnicas</h2>
+  <table class="specs-table">
+    <tbody>
+      <tr>
+        <th>Procesador</th>
+        <td>{{phone.procesador.tipo}}, {{phone.procesador.cantidad_nucleos}}, {{phone.procesador.potencia}}</td>
+      </tr>
+      <tr>
+        <th>Cámara frontal</th>
+        <td>{{phone.camara.frontal.resolucion}}</td>
+      </tr>
+      <tr>
+        <th>Cámara trasera</th>
+        <td>{{phone.camara.trasera.resolucion}}</td>
+      </tr>
+      <tr>
+        <th>Almacenamiento</th>
+        <td>{{phone.almacenamiento}}</td>
+      </tr>
+      <tr>
+        <th>Tamaño de pantalla</th>
+        <td>{{phone.pantalla.medidas}}</td>
+      </tr>
+      <tr>
+        <th>Resistente al Agua/Polvo</th>
+        <td>{{phone.otros.resistente_agua_polvo}}</td>
+      </tr>
+      <tr>
+        <th>SIM</th>
+        <td>{{phone.otros.tipo_sim}}</td>
+      </tr>
+      <tr>
+        <th>NFC</th>
+        <td>{{phone.otros.nfc}}</td>
+      </tr>
+      <tr>
+        <th>Pin de carga</th>
+        <td>{{phone.otros.pin_carga}}</td>
+      </tr>
+      <tr>
+        <th>Contenido de la caja</th>
+        <td>{{phone.otros.viene_con_cargador}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+        
+      <!-- las tres fotitos -->
+  <!-- <div class="photos-container">
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 1">
+      <p>{{subTitulo}}</p>
+    </div>
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 2">
+      <p>{{subTitulo}}</p>
+    </div>
+    <div class="photo">
+      <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="Foto 3">
+      <p>{{subTitulo}}</p>
+    </div>
+  </div> -->
+
+
+
+
+
+
+  <!-- otros productos -->
+  <div class="product-container">
+  
+    <!-- Modo normal (productos uno al lado del otro) -->
+    <div class="normal-view">
+  
+      <div class="phones-slider-button left" (click)="fnDespPhonCarroLeft()">&#8249;</div>
+  
+      <div class="slider-box-container-phones">
+        <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
+          <app-product-data class="phone-card" *ngFor="let phone of phonesFamily"
+            [phoneDetails]="phone"
+            (elementWidth)="fnGetElementWidth($event)"
+            >&#8250;</app-product-data>
+      
+        </div>
+      </div>
+      <div class="phones-slider-button right" (click)="fnDespPhonCarroRight()">&#8250;</div>
+    </div>
+   
+  </div>
+  
+
+  
+
+
+    
+        
+  <!-- FAQ -->
+  <div class="faq-section">
+    <h2>Preguntas sobre nuestros productos</h2>
+    <div class="faq-grid">
+      <div class="faq-column">
+        <h3>Checkout</h3>
+        <details>
+          <summary>How to Contact Etsy Support</summary>
+          <p>{{descrip}}</p>
+        </details>
+        <details>
+          <summary>How to Purchase an Item On Etsy</summary>
+          <p>{{descrip}}</p>
+        </details>
+       
+      </div>
+      <div class="faq-column">
+        <h3>Orders & Returns</h3>
+        <details>
+          <summary>Change a Wrong Shipping Address on an Order</summary>
+          <p>{{descrip}}</p>
+        </details>
+        <details>
+          <summary>How to Track Your Etsy Order</summary>
+          <p>{{descrip}}</p>
+        </details>
+        
+      </div>
+      <div class="faq-column">
+        <h3>Purchasing</h3>
+        <details>
+          <summary>How to Search for Items and Shops on Etsy</summary>
+          <p>{{descrip}}</p>
+        </details>
+        <details>
+          <summary>COVID-19 Safety on Etsy</summary>
+          <p>{{descrip}}</p>
+        </details>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- formulario -->
+  <div class="subscribe-section">
+    <div class="subscribe-container">
+      <h2>Completa el fomulario para conocer mas sobre nosotros</h2>
+      <a href="https://forms.gle/tu-formulario-google" target="_blank" class="subscribe-btn">Ingresar</a>
+    </div>
+  </div>
+  
+</div>
 
     <app-product-container></app-product-container>
 
@@ -77,7 +272,7 @@
       </div>
     </div>
 
-
+<app-footer></app-footer>
 
 
 

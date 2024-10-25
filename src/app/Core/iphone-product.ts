@@ -1,3 +1,4 @@
+
 export interface Procesador {
     tipo: string;
     cantidad_nucleos: number;
@@ -33,4 +34,3 @@ export interface IphoneProduct {
     pantalla: Pantalla;
     otros: Otros;
     imagenes: string[];
-}

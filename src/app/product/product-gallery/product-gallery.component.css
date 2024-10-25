@@ -1,27 +1,110 @@
- /* Estilo de el titulo y banner */
-  .banner-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
 
-  .text-section {
-    flex: 1;
-    margin-right: 180px;
-  }
+  /* banner producto */
+  /* Contenedor de la página del producto */
+.product-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
 
-  .text-section h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+/* Galería de imágenes */
+.product-gallery {
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .text-section p {
-    font-size: 1rem;
-    line-height: 1.4;
-  }
+.main-image {
+  width: 100%;
+  text-align: center;
+}
+
+.main-image img {
+  width: 90%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.image-carousel {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.thumbnail:hover img {
+  border: 2px solid blue;
+}
+
+/* Información del producto */
+.product-details {
+  flex: 0.4;
+  padding: 20px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.product-details h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.env-gar{
+    min-height: 49px;
+    padding: 16px;
+    border-radius: 10px;
+    background: #f3f5fc;
+}
+
+.env-gar p{
+  color: #1a1919;
+}
+
+.button-section {
+  margin-top: 50px;
+}
+
+
+.button-section button {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #c2c1c1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all .1s linear;
+}
+
+.button-section button:hover {
+  background-color: #fff;
+  border-color: #000;
+} 
 
   .image-section img {
     max-width: 100%;
@@ -29,71 +112,293 @@
     object-fit: cover;
   }
 
-  /* Responsivo para pantallas más pequeñas */
-  @media (max-width: 768px) {
-    .banner-container {
-      flex-direction: column;
-      text-align: center;
-    }
+/* Reset de márgenes y padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    .text-section {
-      margin-right: 0;
-      margin-bottom: 20px;
-    }
+/* Contenedor principal de la galería del producto */
+.product-gallery {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Imagen principal */
+.main-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+/* Contenedor del carrusel de imágenes en miniatura */
+.image-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Botones de navegación del carrusel */
+.carousel-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background-color 0.3s ease;
+}
+
+.prev-btn {
+  left: -10px;
+}
+
+.next-btn {
+  right: -10px;
+}
+
+
+.carousel-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Contenedor de las miniaturas */
+.thumbnails-container {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  gap: 10px;
+}
+
+
+
+/* Estilo de las miniaturas */
+.thumbnail {
+  margin: 0 5px;
+  flex-shrink: 0;
+}
+
+.thumbnail img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border 0.3s ease;
+}
+
+.thumbnail img.active {
+  border: 2px solid #007aff;
+}
+
+.thumbnail img:hover {
+  border: 2px solid #007aff;
+}
+
+
+
+/* Contenedor de las opciones de color y memoria */
+.product-options {
+  margin-top: 40px;
+}
+
+/* Estilo para las opciones de color */
+.color-options {
+  margin-bottom: 20px;
+}
+
+.color-options h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.color-circles {
+  display: flex;
+  gap: 20px;
+}
+
+/* Círculos de color */
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #d8d7d7;
+  cursor: pointer;
+  transition: border 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Colores específicos */
+.color-circle.cream {
+  background-color: #f5f5dc;
+}
+
+.color-circle.graphite {
+  background-color: #2f2f2f;
+}
+
+.color-circle.lavender {
+  background-color: #9370db;
+}
+
+.color-circle.mint {
+  background-color: #98ff98;
+}
+
+.color-circle.blue {
+  background-color: #4169e1;
+}
+
+/* Efecto de selección */
+.color-circle.selected {
+  border: 2px solid #1c6df2;
+}
+
+/* Hover en círculos de color */
+.color-circle:hover {
+  border: 2px solid #1c6df2;
+}
+
+
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+  .carousel-btn {
+    width: 30px;
+    height: 30px;
   }
 
+  .prev-btn {
+    left: -10px;
+  }
+
+  .next-btn {
+    right: -10px;
+  }
+
+  .thumbnail img {
+    width: 50px;
+    height: 50px;
+  }
+}
 
 
 
 
-
-
-
-
-
-
-
-  /* banner de imagenes */
-  .photos-container {
-    display: flex;
-    justify-content: space-between;
+/* Estilos responsive */
+@media (max-width: 1128px) {
+  .product-page {
+    flex-direction: column;
     align-items: center;
+  }
+
+  .product-gallery {
+    flex: none;
     width: 100%;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
   }
 
-  .photo {
-    flex: 1;
-    text-align: center;
-    position: relative;
-  }
-
-  .photo img {
+  .main-image img {
     width: 100%;
-    height: 600px;
-    object-fit: cover;
   }
 
-  .photo p {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
+  .product-details {
+    flex: none;
+    width: 100%;
+    margin-top: 20px;
   }
 
-  /* Estilos responsive */
-  @media (max-width: 768px) {
-    .photos-container {
-      flex-direction: column;
-    }
+  .button-section button {
+    font-size: 16px;
+  }
+}
+
+  
+
+
+
+
+
+
+
+/* Especificaciones tecnicas */
+.tech-specs-section {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  font-family: Arial, sans-serif;
+}
+
+.tech-specs-section h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 1em;
+  color: #333;
+}
+
+.specs-table th, .specs-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.specs-table th {
+  text-align: left;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  width: 40%;
+}
+
+.specs-table td {
+  text-align: left;
+  background-color: #f8f9fa;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .tech-specs-section {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .specs-table th, .specs-table td {
+    padding: 12px;
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .specs-table th, .specs-table td {
+    padding: 10px;
+    font-size: 0.95em;
+  }
+}
 
     /* .photo {
     margin-bottom: 20px;
@@ -165,8 +470,208 @@
     position: relative;
   }
 
-  details:hover summary {
-    color: #0a488b;
+
+
+
+
+/* otros productos */
+.product-container {
+  width: 100%;
+  height: 70vh;
+  /* background-color: var(--light-thirty-color); */
+  font-family: Arial, sans-serif;
+  /* background-color: #f0f0f0; */
+  
+  text-align: center;
+
+  position: relative;
+}
+
+.pressed{
+  color: #000;
+}
+
+/* tarjetas */
+
+.normal-view {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  position: relative;
+}
+
+/*carrusel phones*/
+
+.slider-box-container-phones{
+
+  width: 90%;
+  height: 100%;
+
+  position:relative;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slider-box-phones{
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  gap: 20px;
+
+  position: absolute;
+}
+
+.phones-slider-button{
+  display: inline-block;
+  width: auto;
+  height: 60px;
+  padding: auto;
+
+  font-size: 4em;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+
+  user-select: none;
+  
+}
+
+.right{
+
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: 0%;
+
+}
+
+.left{
+  position: absolute;
+  top: 50%;
+  transform: translate(50%);
+  left: 0%;
+}
+
+
+.phone-card{
+  width: 387px;
+  height: 100%;
+  white-space: nowrap;
+  padding: 20px;
+  margin-top: 70px;
+}
+
+
+
+@media (max-width: 1300px) {
+
+  .hover {
+    visibility: initial;
+  }
+
+}
+
+@media (max-width: 600px) {
+  
+  .slider-box-phones{
+    gap: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+}
+
+
+
+
+
+
+/* Estilos generales de la sección FAQ */
+.faq-section {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  /* border-radius: 12px; */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+  transition: box-shadow 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #222;
+  margin-bottom: 40px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Grid layout */
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.faq-column h3 {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+details {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  /* background-color: #fdfdfd; */
+  /* border: 1px solid #e5e5e5; */
+  /* border-radius: 10px; */
+  transition: background-color 0.3s ease, border 0.3s ease;
+  cursor: pointer;
+}
+
+details summary {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #2e2e2e;
+  cursor: pointer;
+  position: relative;
+}
+
+details:hover summary {
+  color: #0a488b;
+}
+
+details[open] {
+  background-color: #f7f7f7;
+  color: #007bff;
+  border-color: #ccc;
+}
+
+details p {
+  margin-top: 10px;
+  font-size: 0.95em;
+  color: #666;
+  padding-left: 20px;
+  border-left: 3px solid #007bff;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 992px) {
+  .faq-grid {
+    grid-template-columns: repeat(2, 1fr);
+
   }
 
   details[open] {
