@@ -6,6 +6,8 @@ import { Observable } from 'rxjs';
 // import data from '../../Data/iphonesInfo.json';
 import data from '../../Data/iphonesCat.json';
 import { phoneDetails } from '../../Core/iphoneDetails';
+import phoneProduct from '../../Data/iphoneProduct.json'
+import { IphoneProduct } from '../../Core/iphone-product';
 
 @Injectable({
   providedIn: 'root',
@@ -27,6 +29,10 @@ export class StaticDataSvService {
     
     return data;
 
+  }
+
+  getPhoneData():Array<IphoneProduct>{
+    return phoneProduct;
   }
 
 }

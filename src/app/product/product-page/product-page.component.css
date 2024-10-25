@@ -1,17 +1,2 @@
-.product-page {
-  /* display: flex; */
-  flex-direction: row; /* Asegura que los elementos estén en línea horizontal */
-  justify-content: space-between; /* Distribuye espacio entre los elementos */
-   align-items: flex-start; 
-  gap: 20px; /* Espaciado entre las imágenes y la tarjeta */
-  padding: 20px;
-  width: 100%; /* Asegura que ocupe el ancho completo */
-}
 
-@media (max-width: 768px) {
-  .product-page {
-    flex-direction: column; /* En pantallas pequeñas, se apilan verticalmente */
-    align-items: center; /* Centra los elementos */
-  }
-}
 
