@@ -37,23 +37,4 @@
     <div class="phones-slider-button right" (click)="fnDespPhonCarroRight()">&#8250;</div>
   </div>
 
-
-
-  <!-- Modo carrusel -->
-  <!-- <div class="carousel" *ngIf="isMobileView || phonesFamily.length > 3"> -->
-  <div class="carousel" *ngIf="false">
-    <!-- <button class="prev" (click)="prevSlide()">&#10094;</button> -->
-
-    <div class="carousel-track" [style.transform]="'translateX(-' + titlesCarrouselPosition * 100 + '%)'">
-      <div class="carousel-item" *ngFor="let phone of phonesFamily">
-
-        <app-product-data [phoneDetails]="phone"></app-product-data>
-
-      </div>
-    </div>
-
-    <button class="next">&#10095;</button>
-    <button class="prev">&#10096;</button>
-
-  </div>
 </div>

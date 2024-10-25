@@ -41,13 +41,13 @@ export class ProductContainerComponent {
 
   }
 
-  fnReadScreenInfo(){
-    if(window.innerWidth>600){
-      this.objPhoneCardInfo.width=400;
-    }else if(window.innerWidth<=600){
-      this.objPhoneCardInfo.width=window.innerWidth;
-    }
-  }
+  // fnReadScreenInfo(){
+  //   if(window.innerWidth>600){
+  //     this.objPhoneCardInfo.width=400;
+  //   }else if(window.innerWidth<=600){
+  //     this.objPhoneCardInfo.width=window.innerWidth;
+  //   }
+  // }
 
   fnGetElementWidth(width:number){
     this.objPhoneCardInfo.width=width;
@@ -84,12 +84,10 @@ export class ProductContainerComponent {
     this.phonesCarrouselPosition=this.phonesCarrouselPosition>=0?this.phonesCarrouselPosition:this.phonesCarrouselPosition+=this.objPhoneCardInfo.width; 
   }
 
-  
   fnDespPhonCarroRight(){
     this.phonesCarrouselPosition=this.phonesCarrouselPosition<=
     (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-1)))
     ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
   }
-
 
 }

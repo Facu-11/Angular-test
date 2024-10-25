@@ -8,5 +8,7 @@ export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: "comparador", component: ComparatorComponentComponent },
     { path: "testZone", component: ProductContainerComponent },
-    {path: "product", component: ProductPageComponent}
-];
+
+    { path: "product", component: ProductPageComponent},
+   
+

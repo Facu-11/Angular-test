@@ -1,5 +1,6 @@
 import { Component, input } from '@angular/core';
 import { phoneDetails } from '../../../Core/iphoneDetails';
+import { IphoneProduct } from '../../../Core/iphone-product';
 
 @Component({
   selector: 'app-phone-details',
@@ -10,18 +11,37 @@ import { phoneDetails } from '../../../Core/iphoneDetails';
 })
 export class PhoneDetailsComponent {
 
-  phone:phoneDetails ={
-    family:0,
-    model: 'null',
-    camera: '',
-    storage: '',
-    battery: '',
-    display: '',
-    colors: [],
-    price: ''
-  };
+  phone:IphoneProduct ={
+    "modelo": "",
+    "procesador": {
+      "tipo": "",
+      "cantidad_nucleos": 0,
+      "potencia": ""
+    },
+    "camara": {
+      "trasera": {
+        "resolucion": ""
+      },
+      "frontal": {
+        "resolucion": ""
+      }
+    },
+    "almacenamiento": [],
+    "pantalla": {
+      "medidas": ""
+    },
+    "otros": {
+      "resistente_agua_polvo": "",
+      "tipo_sim": [],
+      "nfc": false,
+      "pin_carga": "",
+      "viene_con_cargador": false
+    },
+    "imagenes": []
+  }
+  
 
-  phoneInput = input.required<phoneDetails>();
+  phoneInput = input.required<IphoneProduct>();
 
   testFn(){
     console.log(this.phoneInput);

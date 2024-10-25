@@ -1,4 +1,3 @@
-
 [
     {
         "modelo": "iPhone 14 Pro",
@@ -34,7 +33,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip14-pro-max.jpg"]
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip14.jpg"]
     },
     {
         "modelo": "iPhone 14 Pro Max",
@@ -70,7 +69,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip14-pro-max.jpg"]
     },
     {
         "modelo": "iPhone 13",
@@ -105,7 +104,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13.png"]
     },
     {
         "modelo": "iPhone 13 Pro",
@@ -140,7 +139,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13-pro.png"]
     },
     {
         "modelo": "iPhone 13 Pro Max",
@@ -175,41 +174,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
-    },
-    {
-        "modelo": "iPhone 12",
-        "procesador": {
-            "tipo": "A14 Bionic",
-            "cantidad_nucleos": 6,
-            "potencia": "3.1 GHz"
-        },
-        "camara": {
-            "trasera": {
-                "resolucion": "12 MP Dual"
-            },
-            "frontal": {
-                "resolucion": "12 MP"
-            }
-        },
-        "almacenamiento": [
-            "64 GB",
-            "128 GB",
-            "256 GB"
-        ],
-        "pantalla": {
-            "medidas": "6.1 pulgadas"
-        },
-        "otros": {
-            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
-            "tipo_sim": [
-                "Dual SIM (Nano-SIM y eSIM)"
-            ],
-            "nfc": true,
-            "pin_carga": "Conector Lightning",
-            "viene_con_cargador": false
-        },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13-pro-max.png"]
     },
     {
         "modelo": "iPhone 12 Pro",
@@ -243,7 +208,7 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip12-pro.png"]
     },
     {
         "modelo": "iPhone 12 Pro Max",
@@ -277,40 +242,6 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
-    },
-    {
-        "modelo": "iPhone 11",
-        "procesador": {
-            "tipo": "A13 Bionic",
-            "cantidad_nucleos": 6,
-            "potencia": "2.65 GHz"
-        },
-        "camara": {
-            "trasera": {
-                "resolucion": "12 MP Dual"
-            },
-            "frontal": {
-                "resolucion": "12 MP"
-            }
-        },
-        "almacenamiento": [
-            "64 GB",
-            "128 GB",
-            "256 GB"
-        ],
-        "pantalla": {
-            "medidas": "6.1 pulgadas"
-        },
-        "otros": {
-            "resistente_agua_polvo": "IP68 (hasta 2 metros por 30 minutos)",
-            "tipo_sim": [
-                "Dual SIM (Nano-SIM y eSIM)"
-            ],
-            "nfc": true,
-            "pin_carga": "Conector Lightning",
-            "viene_con_cargador": false
-        },
-        "imagenes": []
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip12-pro-max.png"]
     }
 ]

@@ -1,3 +1,4 @@
+
   /* banner producto */
   /* Contenedor de la página del producto */
 .product-page {
@@ -105,7 +106,11 @@
   border-color: #000;
 } 
 
-
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
 /* Reset de márgenes y padding */
 * {
@@ -167,6 +172,7 @@
   right: -10px;
 }
 
+
 .carousel-btn:hover {
   background-color: #f1f1f1;
 }
@@ -178,6 +184,8 @@
   justify-content: center;
   gap: 10px;
 }
+
+
 
 /* Estilo de las miniaturas */
 .thumbnail {
@@ -270,7 +278,6 @@
 
 
 
-
 /* Estilos responsive */
 @media (max-width: 768px) {
   .carousel-btn {
@@ -291,7 +298,6 @@
     height: 50px;
   }
 }
-
 
 
 
@@ -324,9 +330,6 @@
 }
 
   
-
-
-
 
 
 
@@ -397,64 +400,14 @@
   }
 }
 
-
-
-
-
-
-
-
-
-/* banner de imagenes */
-.photos-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.photo {
-  flex: 1;
-  text-align: center;
-  position: relative;
-}
-
-.photo img {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-}
-
-.photo p {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 5px 10px;
-  font-size: 1rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* Estilos responsive */
-@media (max-width: 768px) {
-  .photos-container {
-    flex-direction: column;
-  }
-
-  /* .photo {
+    /* .photo {
     margin-bottom: 20px;
   } */
 
-  .photo img {
-    height: auto;
+    .photo img {
+      height: auto;
+    }
   }
-}
 
 
 
@@ -462,6 +415,60 @@
 
 
 
+
+  /* Estilos generales de la sección FAQ */
+  .faq-section {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* border-radius: 12px; */
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+    transition: box-shadow 0.3s ease;
+  }
+
+  .faq-section h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 40px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  /* Grid layout */
+  .faq-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .faq-column h3 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+  }
+
+  details {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    /* background-color: #fdfdfd; */
+    /* border: 1px solid #e5e5e5; */
+    /* border-radius: 10px; */
+    transition: background-color 0.3s ease, border 0.3s ease;
+    cursor: pointer;
+  }
+
+  details summary {
+    font-size: 1.1em;
+    font-weight: 600;
+    /* color: #007bff; */
+    cursor: pointer;
+    position: relative;
+  }
 
 
 
@@ -587,12 +594,6 @@
 
 
 
-
-
-
-
-
-
 /* Estilos generales de la sección FAQ */
 .faq-section {
   max-width: 90%;
@@ -670,21 +671,42 @@ details p {
 @media screen and (max-width: 992px) {
   .faq-grid {
     grid-template-columns: repeat(2, 1fr);
+
   }
-}
 
-@media screen and (max-width: 768px) {
-  .faq-grid {
-    grid-template-columns: 1fr;
+  details[open] {
+    background-color: #f7f7f7;
+    color: #007bff;
+    border-color: #ccc;
   }
-}
+
+  details p {
+    margin-top: 10px;
+    font-size: 0.95em;
+    color: #666;
+    padding-left: 20px;
+    border-left: 3px solid #007bff;
+  }
+
+  /* Estilos responsivos */
+  @media screen and (max-width: 992px) {
+    .faq-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .faq-grid {
+      grid-template-columns: 1fr;
+    }
+  }
 
 
 
 
 
 
-/* fomulario en el footer */
+  /* fomulario en el footer */
 
   .subscribe-section {
     background-color: #f5f5f5;
@@ -737,8 +759,3 @@ details p {
       font-size: 0.9em;
     }
   }
-
-
-
-
-  
