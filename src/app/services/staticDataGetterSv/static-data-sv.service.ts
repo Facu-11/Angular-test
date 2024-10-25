@@ -5,7 +5,12 @@ import { Observable } from 'rxjs';
 
 // import data from '../../Data/iphonesInfo.json';
 import data from '../../Data/iphonesCat.json';
+import phoneProuct from '../../Data/iphoneProduct.json'
+import phoneProductImg from  '../../Data/iphoneProductImg.json'
+
+
 import { phoneDetails } from '../../Core/iphoneDetails';
+import { IphoneProduct } from '../../Core/iphone-product';
 
 @Injectable({
   providedIn: 'root',
@@ -29,4 +34,11 @@ export class StaticDataSvService {
 
   }
 
+  getPhoneData():Array<IphoneProduct>{
+    return phoneProuct;
+  }
+
+  getPhoneAndImgData():Array<IphoneProduct>{
+    return phoneProductImg;
+  }
 }

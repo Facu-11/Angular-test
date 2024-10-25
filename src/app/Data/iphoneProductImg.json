@@ -1,0 +1,247 @@
+[
+    {
+        "modelo": "iPhone 14 Pro",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip14.jpg"]
+    },
+    {
+        "modelo": "iPhone 14 Pro Max",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip14-pro-max.jpg"]
+    },
+    {
+        "modelo": "iPhone 13",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP Dual"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13.png"]
+    },
+    {
+        "modelo": "iPhone 13 Pro",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13-pro.png"]
+    },
+    {
+        "modelo": "iPhone 13 Pro Max",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip13-pro-max.png"]
+    },
+    {
+        "modelo": "iPhone 12 Pro",
+        "procesador": {
+            "tipo": "A14 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.1 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip12-pro.png"]
+    },
+    {
+        "modelo": "iPhone 12 Pro Max",
+        "procesador": {
+            "tipo": "A14 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.1 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": ["static_imgs/comparatorPhones/all-colors-ip12-pro-max.png"]
+    }
+]

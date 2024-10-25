@@ -1,5 +1,5 @@
 <app-header></app-header>
-<section>
+<!-- <section>
 
     <div class="titleBox">
         <h1>Comparador de modelos</h1>
@@ -42,11 +42,127 @@
     </div>
 
 </section>
+ -->
+
+<section>
+
+    <div class="titleBox">
+        <h1>Comparador de modelos</h1>
+        <p>compara entre los distintos modelos que tenemos disponibles</p>
+    </div>
+
+    <div class="modelSelectors">
+
+        <select name="iphoneOne" [(ngModel)]="userModelOne" (change)="fnPhoneSelector(0,userModelOne)"
+            class="selectorBox">
+            <optgroup label="Nuevos modelos">
+                <ng-container *ngTemplateOutlet="opts"></ng-container>
+            </optgroup>
+
+        </select>
+
+        <select name="iphoneTwo" [(ngModel)]="userModelTwo" (change)="fnPhoneSelector(1,userModelTwo)"
+            class="selectorBox">
+            <optgroup label="Nuevos modelos">
+                <ng-container *ngTemplateOutlet="opts"></ng-container>
+            </optgroup>
+
+        </select>
+
+        <select *ngIf="varHasThreeSelectors" name="iphoneThree" [(ngModel)]="userModelThree"
+            (change)="fnPhoneSelector(2,userModelThree)" class="selectorBox">
+            <optgroup label="Nuevos modelos">
+                <ng-container *ngTemplateOutlet="opts"></ng-container>
+            </optgroup>
+
+        </select>
+
+    </div>
+
+    <div class="phonesContainer">
+
+        <div class="phoneImgs feacture">
+
+            <app-comparador-img *ngFor="let phone of arrPhonesToCompare" [colorsPhoneImagen]="phone.imagenes">
+            </app-comparador-img>
+
+        </div>
+
+        <div class="divisorSection">
+            <h3>Procesador</h3>
+            <div class="divisorLine"></div>
+        </div> 
+
+        <div class="phoneCore feacture">
+
+            <app-comparador-procesador class="core card" *ngFor="let phone of arrPhonesToCompare"
+                [phoneCore]="phone.procesador"></app-comparador-procesador>
+
+        </div>
+
+  
+        <div class="divisorSection">
+            <h3>Cámaras</h3>
+            <div class="divisorLine"></div>
+        </div>
+
+        <div class="phoneCamera feacture">
+
+            <app-comparador-camaras class="camera card" *ngFor="let  phone of arrPhonesToCompare"
+                [phoneCamera]="phone.camara"></app-comparador-camaras>
+
+        </div>
+
+
+        <div class="divisorSection">
+            <h3>Pantalla</h3>
+            <div class="divisorLine"></div>
+        </div>
+
+        <div class="phoneScreen feacture">
+
+            <app-comparador-pantalla class="screen card" *ngFor="let phone of arrPhonesToCompare"
+                [phoneScreen]="phone.pantalla">
+            </app-comparador-pantalla>
+
+        </div>
+
+        <div class="divisorSection">
+            <h3>Almacenamiento</h3>
+            <div class="divisorLine"></div>
+        </div>
+
+
+        <div class="phoneStorage feacture">
+
+            <app-comparador-almacenamiento class="storage card" *ngFor="let phone of arrPhonesToCompare"
+                [phoneStorage]="phone.almacenamiento"></app-comparador-almacenamiento>
+
+        </div>
+
+        
+        <div class="divisorSection">
+            <h3>Otras caracteristicas</h3>
+            <div class="divisorLine"></div>
+        </div>
+
+
+        <div class="phoneOthers feacture">
+
+            <app-comparador-otros class="other card" *ngFor="let phone of arrPhonesToCompare"
+                [othersPhone]="phone.otros"></app-comparador-otros>
+
+        </div>
+
+    </div>
+
+</section>
+
 <!-- <app-phone-details></app-phone-details> -->
 <app-footer></app-footer>
 
 <!-- zona de templates -->
 
 <ng-template #opts>
-    <option *ngFor="let phone of dataPhonesT">{{phone.model}}</option>
+    <option *ngFor="let phone of dataPhonesT">{{phone.modelo}}</option>
 </ng-template>
