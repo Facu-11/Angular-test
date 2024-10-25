@@ -34,3 +34,4 @@ export interface IphoneProduct {
     pantalla: Pantalla;
     otros: Otros;
     imagenes: string[];
+}

@@ -6,12 +6,13 @@ import { StaticDataSvService } from '../../services/staticDataGetterSv/static-da
 import { IphoneProduct } from '../../Core/iphone-product';
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { ProductDataComponent } from '../../sec-products/product-data/product-data.component';
+import { ProductContainerComponent } from "../../sec-products/product-container/product-container.component";
 
 
 @Component({
   selector: 'app-product-gallery',
   standalone: true,
-  imports: [CommonModule, HeaderComponent,FooterComponent,ProductDataComponent],
+  imports: [CommonModule, HeaderComponent, FooterComponent, ProductDataComponent, ProductContainerComponent],
   templateUrl: './product-gallery.component.html',
   styleUrl: './product-gallery.component.css'
 })
