@@ -10,5 +10,4 @@ export const routes: Routes = [
     { path: "testZone", component: ProductContainerComponent },
 
     { path: "product", component: ProductPageComponent},
-   
-
+]

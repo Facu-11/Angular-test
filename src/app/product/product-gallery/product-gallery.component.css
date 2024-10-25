@@ -398,7 +398,7 @@
     padding: 10px;
     font-size: 0.95em;
   }
-}
+
 
     /* .photo {
     margin-bottom: 20px;
@@ -407,7 +407,7 @@
     .photo img {
       height: auto;
     }
-  }
+}
 
 
 
@@ -700,7 +700,7 @@ details p {
       grid-template-columns: 1fr;
     }
   }
-
+}
 
 
 
