@@ -12,7 +12,6 @@ import { ThemeToggleComponent } from "./theme-toggle/theme-toggle.component";
 
 import { BannerProductsComponent } from './products/banner-products/banner-products.component';
 import { AllProductsComponent } from "./products/all-products/all-products.component";
-import { ProductPageComponent } from './product/product-page/product-page.component';
 import { FaqComponent } from './faq/faq.component';
 import { ProductGalleryComponent } from './product/product-gallery/product-gallery.component';
 import { ComparatorComponentComponent } from './phoneComparator-page/comparator-component/comparator-component.component';
@@ -20,9 +19,9 @@ import { ProductContainerComponent } from './sec-products/product-container/prod
 
 @Component({
   selector: 'app-root',
-
+  
   standalone:true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductPageComponent,ProductGalleryComponent,ComparatorComponentComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, BannerComponent, InfoProdructsComponent, InfoPayComponent, WhatsappComponent, HistoryPageComponent, ThemeToggleComponent, BannerProductsComponent, AllProductsComponent,ProductGalleryComponent,ComparatorComponentComponent],
 
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
