@@ -12,7 +12,6 @@ import { AllProductsComponent } from '../products/all-products/all-products.comp
 import { ProductDataComponent } from '../sec-products/product-data/product-data.component';
 import { ProductContainerComponent } from '../sec-products/product-container/product-container.component';
 import { BannerProductsComponent } from '../products/banner-products/banner-products.component';
-import { ProductPageComponent } from '../product/product-page/product-page.component';
 import { ProductGalleryComponent } from '../product/product-gallery/product-gallery.component';
 
 @Component({
@@ -21,7 +20,7 @@ import { ProductGalleryComponent } from '../product/product-gallery/product-gall
   imports: [HeaderComponent, FooterComponent, BannerComponent,
     HistoryPageComponent, InfoProdructsComponent, InfoPayComponent, BannerComponent,
     ThemeToggleComponent, WhatsappComponent, AllProductsComponent, ProductDataComponent,
-    BannerProductsComponent, ProductPageComponent, ProductGalleryComponent, ProductContainerComponent, FaqComponent],
+    BannerProductsComponent, ProductGalleryComponent, ProductContainerComponent, FaqComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

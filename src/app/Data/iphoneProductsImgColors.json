@@ -1,0 +1,659 @@
+[
+    {
+        "modelo": "iPhone 12",
+        "procesador": {
+            "tipo": "A14 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.1 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP Dual"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "64 GB",
+            "128 GB",
+            "256 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": [
+            {
+                "imgColor": "blue",
+                "imgFront": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            },
+            {
+                "imgColor": "white",
+                "imgFront": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            },
+            {
+                "imgColor": "black",
+                "imgFront": "iphonesAllPictures/ip12/ip12_negro/ip12_black_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_negro/ip12_black_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_negro/ip12_black_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_negro/ip12_black_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            },
+            {
+                "imgColor": "purple",
+                "imgFront": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            },
+            {
+                "imgColor": "red",
+                "imgFront": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            },
+            {
+                "imgColor": "green",
+                "imgFront": "iphonesAllPictures/ip12/ip12_verde/ip12_green_front.png",
+                "imgBack": "iphonesAllPictures/ip12/ip12_verde/ip12_green_back.png",
+                "imgCamera": "iphonesAllPictures/ip12/ip12_verde/ip12_green_camera.png",
+                "imgSide": "iphonesAllPictures/ip12/ip12_verde/ip12_green_sideUp.png",
+                "imgSpecial": "",
+                "imgSpecial2": ""
+            }
+        ]
+    },
+    {
+        "modelo": "iPhone 12 Pro",
+        "procesador": {
+            "tipo": "A14 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.1 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 12 Pro Max",
+        "procesador": {
+            "tipo": "A14 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.1 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 13",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP Dual"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 13 Pro",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 13 Pro Max",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 14",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP Dual"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 14 Plus",
+        "procesador": {
+            "tipo": "A15 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.23 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "12 MP Dual"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 14 Pro",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 14 Pro Max",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "Conector Lightning",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 15",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "USB-C",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 15 Plus",
+        "procesador": {
+            "tipo": "A16 Bionic",
+            "cantidad_nucleos": 6,
+            "potencia": "3.46 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "USB-C",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 15 Pro",
+        "procesador": {
+            "tipo": "A17 Pro",
+            "cantidad_nucleos": 6,
+            "potencia": "3.70 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "128 GB",
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.1 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "USB-C",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 15 Pro Max",
+        "procesador": {
+            "tipo": "A17 Pro",
+            "cantidad_nucleos": 6,
+            "potencia": "3.70 GHz"
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": "48 MP + 12 MP + 12 MP"
+            },
+            "frontal": {
+                "resolucion": "12 MP"
+            }
+        },
+        "almacenamiento": [
+            "256 GB",
+            "512 GB",
+            "1 TB"
+        ],
+        "pantalla": {
+            "medidas": "6.7 pulgadas"
+        },
+        "otros": {
+            "resistente_agua_polvo": "IP68 (hasta 6 metros por 30 minutos)",
+            "tipo_sim": [
+                "Dual SIM (Nano-SIM y eSIM)",
+                "Soporte para SIM física y eSIM"
+            ],
+            "nfc": true,
+            "pin_carga": "USB-C",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 16",
+        "procesador": {
+            "tipo": "",
+            "cantidad_nucleos": 0,
+            "potencia": ""
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": ""
+            },
+            "frontal": {
+                "resolucion": ""
+            }
+        },
+        "almacenamiento": [],
+        "pantalla": {
+            "medidas": ""
+        },
+        "otros": {
+            "resistente_agua_polvo": "",
+            "tipo_sim": [],
+            "nfc": false,
+            "pin_carga": "",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 16 Plus",
+        "procesador": {
+            "tipo": "",
+            "cantidad_nucleos": 0,
+            "potencia": ""
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": ""
+            },
+            "frontal": {
+                "resolucion": ""
+            }
+        },
+        "almacenamiento": [],
+        "pantalla": {
+            "medidas": ""
+        },
+        "otros": {
+            "resistente_agua_polvo": "",
+            "tipo_sim": [],
+            "nfc": false,
+            "pin_carga": "",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 16 Pro",
+        "procesador": {
+            "tipo": "",
+            "cantidad_nucleos": 0,
+            "potencia": ""
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": ""
+            },
+            "frontal": {
+                "resolucion": ""
+            }
+        },
+        "almacenamiento": [],
+        "pantalla": {
+            "medidas": ""
+        },
+        "otros": {
+            "resistente_agua_polvo": "",
+            "tipo_sim": [],
+            "nfc": false,
+            "pin_carga": "",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    },
+    {
+        "modelo": "iPhone 16 Pro Max",
+        "procesador": {
+            "tipo": "",
+            "cantidad_nucleos": 0,
+            "potencia": ""
+        },
+        "camara": {
+            "trasera": {
+                "resolucion": ""
+            },
+            "frontal": {
+                "resolucion": ""
+            }
+        },
+        "almacenamiento": [],
+        "pantalla": {
+            "medidas": ""
+        },
+        "otros": {
+            "resistente_agua_polvo": "",
+            "tipo_sim": [],
+            "nfc": false,
+            "pin_carga": "",
+            "viene_con_cargador": false
+        },
+        "imagenes": []
+    }
+]

@@ -16,59 +16,46 @@ import { ProductContainerComponent } from "../../sec-products/product-container/
   templateUrl: './product-gallery.component.html',
   styleUrl: './product-gallery.component.css'
 })
-export class ProductGalleryComponent  {
+export class ProductGalleryComponent {
 
-phone: IphoneProduct;
+  phone: IphoneProduct;
 
+  titlesCarrouselPosition: number = 0;
+  phonesCarrouselPosition: number = 100;
 
+  isMobileView: boolean = false;
 
-titlesCarrouselPosition:number = 0;
-phonesCarrouselPosition:number = 100;
+  phonesDetails: Array<phoneDetails> = []
+  phonesFamily: Array<phoneDetails> = []
 
-isMobileView:boolean = false;
+  objPhoneCardInfo = { "width": 400 };
 
-phonesDetails:Array<phoneDetails>=[]
-phonesFamily: Array<phoneDetails>=[]
+  /* bar menu */
+  hover: boolean = false;
 
-objPhoneCardInfo={"width":400};
+  /* click style*/
+  varLastBtnPressed: number = 0;
+  arButtons: Array<boolean> = [false, false, false, false, false, false];
 
-/* bar menu */
-hover:boolean = false;
+  constructor(private data: StaticDataSvService) {
 
-/* click style*/
-varLastBtnPressed:number=0;
-arButtons:Array<boolean>=[false,false,false,false,false,false]; 
+    this.phone = data.getPhoneData()[0];
 
+    this.phonesDetails = data.getData();
 
+  }
 
-
-
-
- constructor(private data : StaticDataSvService){
-
-  this.phone = data.getPhoneData()[0];
-
-
-  this.phonesDetails=data.getData();
- }
-
-   subTitulo:string = "hola";
-   descrip:string = "Descripcion del producto";
+  subTitulo: string = "hola";
+  descrip: string = "Descripcion del producto";
 
 
-   images = [
-    "https://picsum.photos/400/400?random=1",
+  images = [
+    "https://picsum.photos/400/400?random=2",
     "https://picsum.photos/400/400?random=1",
     "https://picsum.photos/400/400?random=1"
   ];
 
-
-
-  
-
-
- 
- mainImageUrl: string = this.images[0]; // Imagen principal inicial
+  mainImageUrl: string = this.images[0]; // Imagen principal inicial
   selectedImageIndex: number = 0;
 
   // Cambiar la imagen principal al hacer clic en una miniatura
@@ -95,46 +82,44 @@ arButtons:Array<boolean>=[false,false,false,false,false,false];
 
 
 
-
-
   ngOnInit() {
 
-    this.fnfiltro(11,0);
+    this.fnfiltro(11, 0);
 
   }
 
-  fnReadScreenInfo(){
-    if(window.innerWidth>600){
-      this.objPhoneCardInfo.width=400;
-    }else if(window.innerWidth<=600){
-      this.objPhoneCardInfo.width=window.innerWidth;
+  fnReadScreenInfo() {
+    if (window.innerWidth > 600) {
+      this.objPhoneCardInfo.width = 400;
+    } else if (window.innerWidth <= 600) {
+      this.objPhoneCardInfo.width = window.innerWidth;
     }
   }
 
-  fnGetElementWidth(width:number){
-    this.objPhoneCardInfo.width=width;
+  fnGetElementWidth(width: number) {
+    this.objPhoneCardInfo.width = width;
   }
 
-  fnfiltro(selectedFamily:number, btnNum:number){
+  fnfiltro(selectedFamily: number, btnNum: number) {
 
-    this.phonesFamily=this.phonesDetails.filter((phone)=>{
-     return phone.family == selectedFamily;
+    this.phonesFamily = this.phonesDetails.filter((phone) => {
+      return phone.family == selectedFamily;
     })
 
     this.arButtons.fill(false);
-    this.arButtons[btnNum]=!this.arButtons[btnNum];
+    this.arButtons[btnNum] = !this.arButtons[btnNum];
   }
 
   /* titles carrousel*/
-  fnDesplAder(){
-    this.titlesCarrouselPosition = this.titlesCarrouselPosition>=100? this.titlesCarrouselPosition:this.titlesCarrouselPosition+=100; 
+  fnDesplAder() {
+    this.titlesCarrouselPosition = this.titlesCarrouselPosition >= 100 ? this.titlesCarrouselPosition : this.titlesCarrouselPosition += 100;
   }
 
-  fnDesplAizq(){
-    this.titlesCarrouselPosition=this.titlesCarrouselPosition<=(window.innerWidth-(300*4))?this.titlesCarrouselPosition:this.titlesCarrouselPosition-=100
+  fnDesplAizq() {
+    this.titlesCarrouselPosition = this.titlesCarrouselPosition <= (window.innerWidth - (300 * 4)) ? this.titlesCarrouselPosition : this.titlesCarrouselPosition -= 100
   }
 
-  fnHover(value:boolean){
+  fnHover(value: boolean) {
     this.hover = value;
   }
 
@@ -142,17 +127,16 @@ arButtons:Array<boolean>=[false,false,false,false,false,false];
   /* phones carrousel*/
 
 
-  fnDespPhonCarroLeft(){
-    this.phonesCarrouselPosition=this.phonesCarrouselPosition>=0?this.phonesCarrouselPosition:this.phonesCarrouselPosition+=this.objPhoneCardInfo.width; 
+  fnDespPhonCarroLeft() {
+    this.phonesCarrouselPosition = this.phonesCarrouselPosition >= 0 ? this.phonesCarrouselPosition : this.phonesCarrouselPosition += this.objPhoneCardInfo.width;
   }
 
-  
-  fnDespPhonCarroRight(){
-    this.phonesCarrouselPosition=this.phonesCarrouselPosition<=
-    (-(this.objPhoneCardInfo.width*(this.phonesFamily.length-1)))
-    ?this.phonesCarrouselPosition:this.phonesCarrouselPosition-=this.objPhoneCardInfo.width
+
+  fnDespPhonCarroRight() {
+    this.phonesCarrouselPosition = this.phonesCarrouselPosition <=
+      (-(this.objPhoneCardInfo.width * (this.phonesFamily.length - 1)))
+      ? this.phonesCarrouselPosition : this.phonesCarrouselPosition -= this.objPhoneCardInfo.width
 
   }
 
 }
- 
