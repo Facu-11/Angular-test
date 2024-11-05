@@ -37,9 +37,8 @@
                 "imgFront": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png"
+
             },
             {
                 "imgColor": "white",
@@ -55,36 +54,32 @@
                 "imgFront": "iphonesAllPictures/ip12/ip12_negro/ip12_black_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_negro/ip12_black_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_negro/ip12_black_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_negro/ip12_black_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_negro/ip12_black_sideUp.png"
+
             },
             {
                 "imgColor": "purple",
                 "imgFront": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_sideUp.png"
+
             },
             {
                 "imgColor": "red",
                 "imgFront": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_sideUp.png"
+
             },
             {
                 "imgColor": "green",
                 "imgFront": "iphonesAllPictures/ip12/ip12_verde/ip12_green_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_verde/ip12_green_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_verde/ip12_green_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_verde/ip12_green_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_verde/ip12_green_sideUp.png"
+
             }
         ]
     },
