@@ -1,0 +1,48 @@
+ <!-- Especificaciones tecnicas -->
+    <div class="tech-specs-section">
+      <h2>Especificaciones técnicas</h2>
+      <table class="specs-table">
+        <tbody>
+          <tr>
+            <th>Procesador</th>
+            <td>{{phone.procesador.tipo}}, {{phone.procesador.cantidad_nucleos}}, {{phone.procesador.potencia}}</td>
+          </tr>
+          <tr>
+            <th>Cámara frontal</th>
+            <td>{{phone.camara.frontal.resolucion}}</td>
+          </tr>
+          <tr>
+            <th>Cámara trasera</th>
+            <td>{{phone.camara.trasera.resolucion}}</td>
+          </tr>
+          <tr>
+            <th>Almacenamiento</th>
+            <td>{{phone.almacenamiento}}</td>
+          </tr>
+          <tr>
+            <th>Tamaño de pantalla</th>
+            <td>{{phone.pantalla.medidas}}</td>
+          </tr>
+          <tr>
+            <th>Resistente al Agua/Polvo</th>
+            <td>{{phone.otros.resistente_agua_polvo}}</td>
+          </tr>
+          <tr>
+            <th>SIM</th>
+            <td>{{phone.otros.tipo_sim}}</td>
+          </tr>
+          <tr>
+            <th>NFC</th>
+            <td>{{fnChangeTrues(phone.otros.nfc)}}</td>
+          </tr>
+          <tr>
+            <th>Pin de carga</th>
+            <td>{{phone.otros.pin_carga}}</td>
+          </tr>
+          <tr>
+            <th>Contenido de la caja</th>
+            <td>{{fnChangeTrues(phone.otros.viene_con_cargador)}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>

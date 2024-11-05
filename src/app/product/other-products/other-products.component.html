@@ -1,0 +1,19 @@
+ <!-- otros productos -->
+ <div class="product-container">
+
+    <!-- Modo normal (productos uno al lado del otro) -->
+    <div class="normal-view">
+
+      <div class="phones-slider-button left" (click)="fnDespPhonCarroLeft()">&#8249;</div>
+
+      <div class="slider-box-container-phones">
+        <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
+          <app-product-data class="phone-card" *ngFor="let phone of phonesFamily" [phoneDetails]="phone"
+            (elementWidth)="fnGetElementWidth($event)">&#8250;</app-product-data>
+
+        </div>
+      </div>
+      <div class="phones-slider-button right" (click)="fnDespPhonCarroRight()">&#8250;</div>
+    </div>
+
+  </div>

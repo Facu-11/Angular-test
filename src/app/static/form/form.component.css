@@ -1,0 +1,53 @@
+/* fomulario en el footer */
+
+.subscribe-section {
+    background-color: #f5f5f5;
+    padding: 20px 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .subscribe-section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-btn {
+    display: inline-block;
+    background-color: #000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .subscribe-btn:hover {
+    background-color: #333;
+  }
+
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .subscribe-section h2 {
+      font-size: 1.5em;
+    }
+
+    .subscribe-btn {
+      padding: 12px 25px;
+      font-size: 1em;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .subscribe-section h2 {
+      font-size: 1.3em;
+    }
+
+    .subscribe-btn {
+      padding: 10px 20px;
+      font-size: 0.9em;
+    }
+  }
