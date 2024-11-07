@@ -13,6 +13,7 @@ import { ProductDataComponent } from '../sec-products/product-data/product-data.
 import { ProductContainerComponent } from '../sec-products/product-container/product-container.component';
 import { BannerProductsComponent } from '../products/banner-products/banner-products.component';
 import { ProductGalleryComponent } from '../product/product-gallery/product-gallery.component';
+import { BannerStaticComponent } from '../product/banners/banner-static/banner-static.component';
 
 @Component({
   selector: 'app-home',
@@ -20,7 +21,7 @@ import { ProductGalleryComponent } from '../product/product-gallery/product-gall
   imports: [HeaderComponent, FooterComponent, BannerComponent,
     HistoryPageComponent, InfoProdructsComponent, InfoPayComponent, BannerComponent,
     ThemeToggleComponent, WhatsappComponent, AllProductsComponent, ProductDataComponent,
-    BannerProductsComponent, ProductGalleryComponent, ProductContainerComponent, FaqComponent],
+    BannerProductsComponent, ProductGalleryComponent, ProductContainerComponent, FaqComponent,BannerStaticComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

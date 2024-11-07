@@ -1,7 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { response } from 'express';
-import { Observable } from 'rxjs';
 
 // import data from '../../Data/iphonesInfo.json';
 import data from '../../Data/iphonesCat.json';
@@ -12,6 +10,12 @@ import phoneProductImgsColors from '../../Data/iphoneProductsImgColors.json'
 
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { IphoneProduct, IphoneProductColorImgs } from '../../Core/iphone-product';
+
+
+
+import { bannerPhone } from '../../Core/banners-data';
+import bannerStatic from '../../Data/banners-json/bannerStatic.json';
+
 
 
 @Injectable({
@@ -45,5 +49,12 @@ export class StaticDataSvService {
   getPhoneAndImgColorsData(): Array<IphoneProductColorImgs> {
     return phoneProductImgsColors;
   }
+
+  
+
+  getBannerStatic(): bannerPhone[]{
+    return bannerStatic;
+  }
+  
 
 }
