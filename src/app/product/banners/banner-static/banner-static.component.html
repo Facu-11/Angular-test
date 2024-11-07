@@ -1,11 +1,19 @@
-<div class="banner-container">
+<div class="banner-container" *ngIf = "toRight()">
     <div class="banner-content">
-      <h2>hola</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci similique, ut voluptatibus veniam repellendus aut? Neque voluptatum deserunt delectus in facilis tempora modi natus aperiam quam! Nisi inventore ratione reprehenderit?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore atque quaerat perferendis eaque dignissimos nam ratione tempore incidunt soluta aspernatur. Pariatur cupiditate nemo velit dolorum nostrum quo, rerum nam nesciunt?</p>
+      <h2>{{bannerDataIphone[2].model}} </h2>
+      <p>{{bannerDataIphone[2].description.text}}</p>
     </div>
     <div class="banner-image">
       <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="iPhone display">
     </div>
   </div>
   
+<div class="banner-container" *ngIf="!toRight()">
+   <div class="banner-image">
+    <img src="https://picsum.photos/400/400?random=1" loading="lazy" alt="iPhone display">
+  </div>
+  <div class="banner-content">
+    <h2>{{bannerDataIphone[2].model}} </h2>
+    <p>{{bannerDataIphone[2].description.text}}</p>
+  </div>
+</div>

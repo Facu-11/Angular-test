@@ -1,0 +1,420 @@
+[
+  {
+    "model": "iPhone 12",
+    "description": {
+      "title": "Descripción del iPhone 12",
+      "text": "El iPhone 12 presenta un diseño renovado con bordes planos, pantalla Super Retina XDR de 6.1 pulgadas y el chip A14 Bionic, mejorando la eficiencia y el rendimiento.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 12",
+      "text": "Pantalla OLED Super Retina XDR de 6.1 pulgadas, con una resolución de 2532 x 1170 píxeles y soporte para HDR10.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 12",
+      "text": "Hasta 17 horas de reproducción de video, compatible con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 12",
+      "text": "Sistema de cámara dual de 12 MP con modo nocturno, HDR 3 y grabación en 4K a 60 fps.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 12 Pro",
+    "description": {
+      "title": "Descripción del iPhone 12 Pro",
+      "text": "El iPhone 12 Pro incorpora un diseño de acero inoxidable y una pantalla Super Retina XDR de 6.1 pulgadas. Potenciado por el chip A14 Bionic.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 12 Pro",
+      "text": "Pantalla Super Retina XDR OLED de 6.1 pulgadas con resolución de 2532 x 1170 píxeles, soporte HDR10 y True Tone.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 12 Pro",
+      "text": "Hasta 17 horas de reproducción de video con carga rápida y MagSafe para carga inalámbrica.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 12 Pro",
+      "text": "Sistema de triple cámara de 12 MP, con modo nocturno, LiDAR y grabación en 4K a 60 fps.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 12 Pro Max",
+    "description": {
+      "title": "Descripción del iPhone 12 Pro Max",
+      "text": "El iPhone 12 Pro Max ofrece una pantalla más grande de 6.7 pulgadas, mejor batería y sistema de cámaras avanzado con estabilización óptica.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 12 Pro Max",
+      "text": "Pantalla OLED Super Retina XDR de 6.7 pulgadas con resolución de 2778 x 1284 píxeles, HDR10 y True Tone.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 12 Pro Max",
+      "text": "Hasta 20 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 12 Pro Max",
+      "text": "Sistema de triple cámara de 12 MP con zoom óptico de 5x y grabación en Dolby Vision HDR.",
+      "urlVideo": ""
+    }
+  },
+
+  {
+    "model": "iPhone 13",
+    "description": {
+      "title": "Descripción del iPhone 13",
+      "text": "El iPhone 13 ofrece mejoras en cámara, rendimiento y batería, con una pantalla Super Retina XDR de 6.1 pulgadas y el chip A15 Bionic.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 13",
+      "text": "Pantalla Super Retina XDR de 6.1 pulgadas, con una resolución de 2532 x 1170 píxeles, OLED y soporte para HDR.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 13",
+      "text": "Hasta 19 horas de reproducción de video, con soporte para carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 13",
+      "text": "Sistema de cámara dual de 12 MP, con sensor más grande para capturar más luz y modo cinematográfico.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 13 Pro",
+    "description": {
+      "title": "Descripción del iPhone 13 Pro",
+      "text": "El iPhone 13 Pro cuenta con un sistema de cámaras mejorado, pantalla ProMotion de 6.1 pulgadas y chip A15 Bionic con un núcleo extra de GPU.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 13 Pro",
+      "text": "Pantalla OLED Super Retina XDR de 6.1 pulgadas, con tasa de refresco ProMotion de 120 Hz y HDR10.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 13 Pro",
+      "text": "Hasta 22 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 13 Pro",
+      "text": "Sistema de triple cámara de 12 MP con modo macro, teleobjetivo de 3x y grabación en ProRes.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 13 Pro Max",
+    "description": {
+      "title": "Descripción del iPhone 13 Pro Max",
+      "text": "El iPhone 13 Pro Max ofrece una pantalla de 6.7 pulgadas, batería de mayor duración y el sistema de cámaras más avanzado.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 13 Pro Max",
+      "text": "Pantalla Super Retina XDR de 6.7 pulgadas, con ProMotion, HDR10 y resolución de 2778 x 1284 píxeles.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 13 Pro Max",
+      "text": "Hasta 28 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 13 Pro Max",
+      "text": "Sistema de triple cámara de 12 MP con zoom óptico de 6x, modo cinematográfico y grabación en Dolby Vision.",
+      "urlVideo": ""
+    }
+  },
+
+  {
+    "model": "iPhone 14",
+    "description": {
+      "title": "Descripción del iPhone 14",
+      "text": "El iPhone 14 trae mejoras en cámara, mayor duración de batería y mantiene la pantalla Super Retina XDR de 6.1 pulgadas. Usa el chip A15 Bionic.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 14",
+      "text": "Pantalla Super Retina XDR de 6.1 pulgadas con resolución de 2532 x 1170 píxeles, OLED y soporte HDR.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 14",
+      "text": "Hasta 20 horas de reproducción de video, compatible con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 14",
+      "text": "Sistema de cámara dual de 12 MP con Photonic Engine, modo noche mejorado y grabación en 4K HDR.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 14 Plus",
+    "description": {
+      "title": "Descripción del iPhone 14 Plus",
+      "text": "El iPhone 14 Plus ofrece una pantalla más grande de 6.7 pulgadas, mayor duración de batería y el chip A15 Bionic.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 14 Plus",
+      "text": "Pantalla Super Retina XDR de 6.7 pulgadas, OLED con resolución de 2778 x 1284 píxeles y soporte HDR.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 14 Plus",
+      "text": "Hasta 26 horas de reproducción de video, compatible con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 14 Plus",
+      "text": "Sistema de cámara dual de 12 MP con Photonic Engine y grabación en 4K HDR.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 14 Pro",
+    "description": {
+      "title": "Descripción del iPhone 14 Pro",
+      "text": "El iPhone 14 Pro introduce Dynamic Island, una pantalla de 6.1 pulgadas ProMotion y el nuevo chip A16 Bionic.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 14 Pro",
+      "text": "Pantalla Super Retina XDR de 6.1 pulgadas con ProMotion, Always-On Display y resolución de 2556 x 1179 píxeles.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 14 Pro",
+      "text": "Hasta 23 horas de reproducción de video, compatible con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 14 Pro",
+      "text": "Sistema de triple cámara de 48 MP, modo noche, Photonic Engine y grabación en 4K ProRes.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 14 Pro Max",
+    "description": {
+      "title": "Descripción del iPhone 14 Pro Max",
+      "text": "El iPhone 14 Pro Max ofrece una pantalla de 6.7 pulgadas, Dynamic Island y el chip A16 Bionic, con batería optimizada.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 14 Pro Max",
+      "text": "Pantalla Super Retina XDR de 6.7 pulgadas con ProMotion, Always-On Display y HDR10.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 14 Pro Max",
+      "text": "Hasta 29 horas de reproducción de video, carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 14 Pro Max",
+      "text": "Cámara de 48 MP con Photonic Engine, teleobjetivo de 3x y grabación en 4K ProRes.",
+      "urlVideo": ""
+    }
+  },
+
+  {
+    "model": "iPhone 15",
+    "description": {
+      "title": "Descripción del iPhone 15",
+      "text": "El iPhone 15 presenta un nuevo diseño, pantalla Super Retina XDR de 6.1 pulgadas y el chip A16 Bionic para mayor rendimiento.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 15",
+      "text": "Pantalla Super Retina XDR de 6.1 pulgadas con resolución de 2556 x 1179 píxeles, OLED y soporte para HDR.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 15",
+      "text": "Hasta 21 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 15",
+      "text": "Sistema de cámara dual de 48 MP con Photonic Engine y grabación en 4K HDR.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 15 Plus",
+    "description": {
+      "title": "Descripción del iPhone 15 Plus",
+      "text": "El iPhone 15 Plus incluye una pantalla más grande de 6.7 pulgadas, mejoras en la cámara y batería extendida.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 15 Plus",
+      "text": "Pantalla Super Retina XDR de 6.7 pulgadas, OLED con resolución de 2796 x 1290 píxeles y soporte para HDR.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 15 Plus",
+      "text": "Hasta 27 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 15 Plus",
+      "text": "Sistema de cámara dual de 48 MP con Photonic Engine y grabación en 4K HDR.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 15 Pro",
+    "description": {
+      "title": "Descripción del iPhone 15 Pro",
+      "text": "El iPhone 15 Pro cuenta con un diseño de titanio, Dynamic Island y el chip A17 Pro para rendimiento avanzado.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 15 Pro",
+      "text": "Pantalla Super Retina XDR de 6.1 pulgadas con ProMotion y Always-On Display, resolución de 2556 x 1179 píxeles.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 15 Pro",
+      "text": "Hasta 23 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 15 Pro",
+      "text": "Sistema de triple cámara de 48 MP con mejoras en el teleobjetivo y grabación en 4K ProRes.",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 15 Pro Max",
+    "description": {
+      "title": "Descripción del iPhone 15 Pro Max",
+      "text": "El iPhone 15 Pro Max ofrece una pantalla de 6.7 pulgadas, chip A17 Pro y un sistema de cámara avanzado con zoom óptico de 5x.",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "Pantalla del iPhone 15 Pro Max",
+      "text": "Pantalla Super Retina XDR de 6.7 pulgadas con ProMotion, Always-On Display y HDR10.",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "Batería del iPhone 15 Pro Max",
+      "text": "Hasta 30 horas de reproducción de video, con carga rápida y carga inalámbrica MagSafe.",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "Cámara del iPhone 15 Pro Max",
+      "text": "Cámara de 48 MP con teleobjetivo mejorado y grabación en 4K ProRes.",
+      "urlVideo": ""
+    }
+  },
+
+  {
+    "model": "iPhone 16",
+    "description": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 16 Plus",
+    "description": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 16 Pro",
+    "description": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    }
+  },
+  {
+    "model": "iPhone 16 Pro Max",
+    "description": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "screen": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "batery": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    },
+    "camara": {
+      "title": "",
+      "text": "",
+      "urlVideo": ""
+    }
+  }
+]
