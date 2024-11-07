@@ -28,7 +28,7 @@ export class BannerComponent {
   // };
 
   imgs: photoObj = {
-    url: '/static_imgs/banners/banner_light2.png',
+    url: '/static_imgs/banners/banner_light.png',
     title: 'Banner White',
     alt: 'Lighting banner'
   }
@@ -36,17 +36,17 @@ export class BannerComponent {
 
   phones: Array<photoObj> = [
   {
-    url: '/static_imgs/phones/iphone14.png',
-    title: 'iphone14',
+    url: '/imgs_colores_iphone/ip15_pro_allColors.png',
+    title: 'iphone16',
     alt: 'iphone14'
   }, {
-    url: '/static_imgs/phones/iphone15.png',
+    url: '/imgs_colores_iphone/all-colors-ip12.png',
     title: 'iphone15',
-    alt: 'ipone15'
+    alt: 'ipone12'
   },{
-    url: '/static_imgs/phones/iphone16.png',
+    url: '/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_front.jpg',
     title: 'iphone16',
-    alt: 'ipone16'
+    alt: 'ipone16ProMax'
   }
 ]
   

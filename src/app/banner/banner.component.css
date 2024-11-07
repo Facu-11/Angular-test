@@ -91,46 +91,13 @@ div img{
   margin-bottom: 20px;
 }
 
-.buttons {
-  display: inline-flex;
-  gap: 10px;
-}
-
-.btn-light, .btn-dark {
-  padding: 10px 20px;
-  font-size: 14px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-}
-
-.btn-light {
-  background-color: #f1f1f1;
-  color: #333;
-  border: 1px solid #ccc;
-}
-
-.btn-dark {
-  background-color: #333;
-  color: white;
-}
-
 /*carrousel styles*/
-.banner-container-carrouselContainer{
-
-  width: 40%;
-  height: 100%;
-  /* border: 1px solid red; */
-  position: relative;
-
-}
-
 .banner-container-carrouselContainer {
-  width: 250px;
+  width: 350px;
   height: auto; 
   display: block;
   margin: 0 auto;
-
+  position: relative;
   /* border: 1px solid red; */
 } 
 

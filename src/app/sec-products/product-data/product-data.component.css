@@ -36,6 +36,9 @@ button {
     cursor: pointer;
 }
 
+h3{
+    padding: 10px;
+}
 
 @media (max-width: 600px) {
 

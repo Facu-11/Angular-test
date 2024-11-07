@@ -3,6 +3,7 @@ import { IphoneProductColorImgs, IphoneImagenColor } from '../../Core/iphone-pro
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { CommonModule } from '@angular/common';
+import { phoneColorData } from '../DTOs/phoneColorData';
 
 @Component({
   selector: 'app-product-img-component',
@@ -13,28 +14,14 @@ import { CommonModule } from '@angular/common';
 })
 export class ImgComponentComponent implements OnInit{
 
-  phone = input.required<IphoneProductColorImgs>();
+  phoneData = input.required<phoneColorData>()
   colorSelected = output<string>();
 
-  phonesDetails: Array<phoneDetails> = []
-  phonesFamily: Array<phoneDetails> = []
-
-  images:Array<string>=[];
   mainImageUrl: string = ""; // Imagen principal inicial
   selectedImageIndex: number = 0;
 
   constructor(private data: StaticDataSvService) {
-    console.log(data.getPhoneAndImgColorsData());
-  }
-
-  fnGetImgSets(color: string): IphoneImagenColor {
-    return this.phone().imagenes.filter((set) => { return set.imgColor == color })[0];
-  }
-
-  fnSetColors(color: string) {
-    return Object.values(this.fnGetImgSets(color)).filter(
-      e => e != color
-    );
+  
   }
 
   //output fn
@@ -42,18 +29,13 @@ export class ImgComponentComponent implements OnInit{
     this.colorSelected.emit(color);
   }
 
-
-
   ngOnInit(): void {
-    this.images = this.fnSetColors("green");
-    this.mainImageUrl  = this.images[0];
-
+    this.mainImageUrl = this.phoneData().phoneImgColorsSetSelected[0];
   }
 
- 
   // Cambiar la imagen principal al hacer clic en una miniatura
   setMainImage(index: number): void {
-    this.mainImageUrl = this.images[index];
+    this.mainImageUrl = this.phoneData().phoneImgColorsSetSelected[index];
     this.selectedImageIndex = index;
   }
 
@@ -61,15 +43,16 @@ export class ImgComponentComponent implements OnInit{
   prevImage(): void {
     if (this.selectedImageIndex > 0) {
       this.selectedImageIndex--;
-      this.mainImageUrl = this.images[this.selectedImageIndex];
+      this.mainImageUrl = this.phoneData().phoneImgColorsSetSelected[this.selectedImageIndex];
     }
   }
 
   // Navegar a la siguiente imagen
   nextImage(): void {
-    if (this.selectedImageIndex < this.images.length - 1) {
+    if (
+      this.selectedImageIndex < this.phoneData().phoneImgColorsSetSelected.length - 1) {
       this.selectedImageIndex++;
-      this.mainImageUrl = this.images[this.selectedImageIndex];
+      this.mainImageUrl = this.phoneData().phoneImgColorsSetSelected[this.selectedImageIndex];
     }
   }
 

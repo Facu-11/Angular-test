@@ -10,7 +10,7 @@ export const routes: Routes = [
     { path: "comparador", component: ComparatorComponentComponent },
     { path: "testZone", component: ProductContainerComponent },
     { path: "product", component: ProductGalleryComponent},
-<<<<<<< Updated upstream
+
     { path: "product2", component:ProductPageComponent },
 
 ]
