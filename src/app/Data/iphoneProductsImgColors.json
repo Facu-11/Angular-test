@@ -1,5 +1,6 @@
 [
     {
+        "family":12,
         "modelo": "iPhone 12",
         "procesador": {
             "tipo": "A14 Bionic",
@@ -33,57 +34,51 @@
         },
         "imagenes": [
             {
-                "imgColor": "blue",
+                "imgColor": "#2A5BDE",
                 "imgFront": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_camera.png",
                 "imgSide": "iphonesAllPictures/ip12/ip12_azul/ip12_blue_sideUp.png"
-
             },
             {
-                "imgColor": "white",
+                "imgColor": "#FFFFFF",
                 "imgFront": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_camera.png",
-                "imgSide": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_sideUp.png",
-                "imgSpecial": "",
-                "imgSpecial2": ""
+                "imgSide": "iphonesAllPictures/ip12/ip12_blanco/ip12_white_sideUp.png"
             },
             {
-                "imgColor": "black",
+                "imgColor": "#1C1C1E",
                 "imgFront": "iphonesAllPictures/ip12/ip12_negro/ip12_black_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_negro/ip12_black_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_negro/ip12_black_camera.png",
                 "imgSide": "iphonesAllPictures/ip12/ip12_negro/ip12_black_sideUp.png"
-
             },
             {
-                "imgColor": "purple",
+                "imgColor": "#B88CC4",
                 "imgFront": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_camera.png",
                 "imgSide": "iphonesAllPictures/ip12/ip12_purpura/ip12_purple_sideUp.png"
-
             },
             {
-                "imgColor": "red",
+                "imgColor": "#CE3B46",
                 "imgFront": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_camera.png",
                 "imgSide": "iphonesAllPictures/ip12/ip12_rojo/ip12_red_sideUp.png"
-
             },
             {
-                "imgColor": "green",
+                "imgColor": "#4ACFAC",
                 "imgFront": "iphonesAllPictures/ip12/ip12_verde/ip12_green_front.png",
                 "imgBack": "iphonesAllPictures/ip12/ip12_verde/ip12_green_back.png",
                 "imgCamera": "iphonesAllPictures/ip12/ip12_verde/ip12_green_camera.png",
                 "imgSide": "iphonesAllPictures/ip12/ip12_verde/ip12_green_sideUp.png"
-
             }
         ]
     },
     {
+        "family":12,
         "modelo": "iPhone 12 Pro",
         "procesador": {
             "tipo": "A14 Bionic",
@@ -115,9 +110,43 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_superposition.png"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_superposition.png"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_superposition.png"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_superposition.png"
+            }
+        ]
     },
     {
+        "family":12,
         "modelo": "iPhone 12 Pro Max",
         "procesador": {
             "tipo": "A14 Bionic",
@@ -149,9 +178,43 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_azul/ip12_proMax_blue_superposition.png"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_negro/ip12_proMax_black_superposition.png"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_oro/ip12_proMax_gold_superposition.png"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_front.png",
+                "imgBack": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_back.png",
+                "imgCamera": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_camera.png",
+                "imgSide": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_sideUp.png",
+                "imgSpecial": "/iphonesAllPictures/ip12_pro_proMax/ip12_pro_plata/ip12_proMax_silver_superposition.png"
+            }
+        ]
     },
     {
+        "family":13,
         "modelo": "iPhone 13",
         "procesador": {
             "tipo": "A15 Bionic",
@@ -184,9 +247,51 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_sideButton.png",
+                "imgSpecial": "/iphonesAllPictures/ip13/ip13_azul/ip13_blue_special.png"
+            },
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_front.png",
+                "imgBack": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_sideButton.png",
+                "imgSpecial": "/iphonesAllPictures/ip13/ip13_blanco/ip13_white_special.png"
+            },
+            {
+                "imgColor": "#2C3E50",
+                "imgFront": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_front.png",
+                "imgBack": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_sideButton.png",
+                "imgSpecial": "/iphonesAllPictures/ip13/ip13_medianoche/ip13_midnight_special.png"
+            },
+            {
+                "imgColor": "#FF0000",
+                "imgFront": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_front.png",
+                "imgBack": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_sideButton.png",
+                "imgSpecial": "/iphonesAllPictures/ip13/ip13_rojo/ip13_red_special.png"
+            },
+            {
+                "imgColor": "#FF69B4",
+                "imgFront": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_front.png",
+                "imgBack": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_sideButton.png",
+                "imgSpecial": "/iphonesAllPictures/ip13/ip13_rosa/ip13_pink_special.png"
+            }
+        ]
     },
     {
+        "family":13,
         "modelo": "iPhone 13 Pro",
         "procesador": {
             "tipo": "A15 Bionic",
@@ -219,9 +324,43 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_backSide.png"
+            },
+            {
+                "imgColor": "#4B4B4B",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_backSide.png"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_backSide.png"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_backSide.png"
+            }
+        ]
     },
     {
+        "family":13,
         "modelo": "iPhone 13 Pro Max",
         "procesador": {
             "tipo": "A15 Bionic",
@@ -254,9 +393,43 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_azul/ip13_pro_blue_backSide.png"
+            },
+            {
+                "imgColor": "#4B4B4B",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_grafito/ip13_pro_graphite_backSide.png"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_oro/ip13_pro_gold_backSide.png"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_front.png",
+                "imgBack": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_back.png",
+                "imgCamera": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_camera.png",
+                "imgSide": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_frontSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip13_pro_proMax/ip13_pro_plata/ip13_pro_silver_backSide.png"
+            }
+        ]
     },
     {
+        "family":14,
         "modelo": "iPhone 14",
         "procesador": {
             "tipo": "A15 Bionic",
@@ -289,9 +462,51 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.png"
+            },
+            {
+                "imgColor": "#A020F0",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_special.png"
+            },
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_special.png"
+            },
+            {
+                "imgColor": "#1C1C1C",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_special.png"
+            },
+            {
+                "imgColor": "#FF0000",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_special.png"
+            }
+        ]
     },
     {
+        "family":14,
         "modelo": "iPhone 14 Plus",
         "procesador": {
             "tipo": "A15 Bionic",
@@ -324,9 +539,51 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_blanco/ip14_white_special.png"
+            },
+            {
+                "imgColor": "#A020F0",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_purpura/ip14_purple_special.png"
+            },
+            {
+                "imgColor": "#1F75FE",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_azul/ip14_blue_special.png"
+            },
+            {
+                "imgColor": "#1C1C1C",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_medianoche/ip14_midnight_special.png"
+            },
+            {
+                "imgColor": "#FF0000",
+                "imgFront": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_front.png",
+                "imgBack": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_back.png",
+                "imgCamera": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_camera.png",
+                "imgSide": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_backAndSide.png",
+                "imgSpecial": "/iphonesAllPictures/ip14/ip14_rojo/ip14_red_special.png"
+            }
+        ]
     },
     {
+        "family":14,
         "modelo": "iPhone 14 Pro",
         "procesador": {
             "tipo": "A16 Bionic",
@@ -360,9 +617,39 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_frontSide.jpg"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_frontSide.jpg"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_frontSide.jpg"
+            },
+            {
+                "imgColor": "#8B00FF",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_frontSide.jpg"
+            }
+        ]
     },
     {
+        "family":14,
         "modelo": "iPhone 14 Pro Max",
         "procesador": {
             "tipo": "A16 Bionic",
@@ -396,9 +683,39 @@
             "pin_carga": "Conector Lightning",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_negro/ip14_pro_black_frontSide.jpg"
+            },
+            {
+                "imgColor": "#C0C0C0",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_plata/ip14_pro_silver_frontSide.jpg"
+            },
+            {
+                "imgColor": "#FFD700",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_oro/ip14_pro_gold_frontSide.jpg"
+            },
+            {
+                "imgColor": "#8B00FF",
+                "imgFront": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_backSide.jpg",
+                "imgSide": "/iphonesAllPictures/ip14_pro/ip14_pro_violeta/ip14_pro_violet_frontSide.jpg"
+            }
+        ]
     },
     {
+        "family":15,
         "modelo": "iPhone 15",
         "procesador": {
             "tipo": "A16 Bionic",
@@ -434,6 +751,7 @@
         "imagenes": []
     },
     {
+        "family":15,
         "modelo": "iPhone 15 Plus",
         "procesador": {
             "tipo": "A16 Bionic",
@@ -469,6 +787,7 @@
         "imagenes": []
     },
     {
+        "family":15,
         "modelo": "iPhone 15 Pro",
         "procesador": {
             "tipo": "A17 Pro",
@@ -502,9 +821,39 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#607D8B",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#B0B0B0",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_rightSide.jpg"
+            }
+        ]
     },
     {
+        "family":15,
         "modelo": "iPhone 15 Pro Max",
         "procesador": {
             "tipo": "A17 Pro",
@@ -537,9 +886,39 @@
             "pin_carga": "USB-C",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#607D8B",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_azul_titanio/ip15_pro_blueTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_blanco_titanio/ip15_pro_whiteTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_negro_titanio/ip15_pro_blackTitanium_rightSide.jpg"
+            },
+            {
+                "imgColor": "#B0B0B0",
+                "imgFront": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_camera.jpg",
+                "imgSide": "/iphonesAllPictures/ip15_pro_max/ip15_pro_titanio/ip15_pro_titanium_rightSide.jpg"
+            }
+        ]
     },
     {
+        "family":16,
         "modelo": "iPhone 16",
         "procesador": {
             "tipo": "",
@@ -565,9 +944,46 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#0000FF",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_special.jpg"
+            },
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_special.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_special.jpg"
+            },
+            {
+                "imgColor": "#FFC0CB",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_special.jpg"
+            },
+            {
+                "imgColor": "#00FF00",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_special.jpg"
+            }
+        ]
     },
     {
+        "family":16,
         "modelo": "iPhone 16 Plus",
         "procesador": {
             "tipo": "",
@@ -593,9 +1009,46 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#0000FF",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_azul/ip16_blue_special.jpg"
+            },
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_blanco/ip16_white_special.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_negro/ip16_black_special.jpg"
+            },
+            {
+                "imgColor": "#FFC0CB",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_rosa/ip16_pink_special.jpg"
+            },
+            {
+                "imgColor": "#00FF00",
+                "imgFront": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16/ip16_verde/ip16_green_special.jpg"
+            }
+        ]
     },
     {
+        "family":16,
         "modelo": "iPhone 16 Pro",
         "procesador": {
             "tipo": "",
@@ -621,9 +1074,39 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_special.jpg"
+            },
+            {
+                "imgColor": "#D2B48C",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_special.jpg"
+            },
+            {
+                "imgColor": "#A6A6A6",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_special.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_special.jpg"
+            }
+        ]
     },
     {
+        "family":16,
         "modelo": "iPhone 16 Pro Max",
         "procesador": {
             "tipo": "",
@@ -649,6 +1132,35 @@
             "pin_carga": "",
             "viene_con_cargador": false
         },
-        "imagenes": []
+        "imagenes": [
+            {
+                "imgColor": "#FFFFFF",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_blanco/ip16_proMax_white_special.jpg"
+            },
+            {
+                "imgColor": "#D2B48C",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_desierto_titanio/ip16_proMax_desertTitanium_special.jpg"
+            },
+            {
+                "imgColor": "#A6A6A6",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_titanio_natural/ip16_proMax_naturalTitanium_special.jpg"
+            },
+            {
+                "imgColor": "#000000",
+                "imgFront": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_front.jpg",
+                "imgBack": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_back.jpg",
+                "imgCamera": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_screen.jpg",
+                "imgSide": "/iphonesAllPictures/ip16_pro_proMax/ip16_pro_max_negro/ip16_proMax_black_special.jpg"
+            }
+        ]
     }
 ]

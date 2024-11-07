@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { HeaderComponent } from '../static/header/header.component';
 import { FooterComponent } from '../static/footer/footer.component';
 import { BannerComponent } from '../banner/banner.component';
@@ -27,4 +27,18 @@ import { BannerStaticComponent } from '../product/banners/banner-static/banner-s
 })
 export class HomeComponent {
 
+  scroolOnTopOfPage:boolean = true;
+
+  @HostListener('window:scroll', ['$event']) // for window scroll events
+   fnScrool(cosa:Event){
+    console.log(window.pageYOffset)
+    if(window.pageYOffset==0){
+      return true;
+    }else{
+      return false;
+    }
+    
+  }
+
+  
 }

@@ -3,6 +3,7 @@ import { Component, ElementRef } from '@angular/core';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { ProductDataComponent } from '../product-data/product-data.component';
+import { IphoneProductColorImgs } from '../../Core/iphone-product';
 
 
 @Component({
@@ -19,8 +20,8 @@ export class ProductContainerComponent {
 
   isMobileView:boolean = false;
 
-  phonesDetails:Array<phoneDetails>=[]
-  phonesFamily: Array<phoneDetails>=[]
+  phonesDetails:Array<IphoneProductColorImgs>=[]
+  phonesFamily: Array<IphoneProductColorImgs>=[]
 
   objPhoneCardInfo={"width":400};
   
@@ -29,15 +30,19 @@ export class ProductContainerComponent {
 
   /* click style*/
   varLastBtnPressed:number=0;
-  arButtons:Array<boolean>=[false,false,false,false,false,false]; 
+  arButtons:Array<boolean>=[false,false,false,false,false]; 
   
   constructor(private data:StaticDataSvService){
-    this.phonesDetails=data.getData();
+    // this.phonesDetails=;
+    this.phonesDetails=data.getPhoneAndImgColorsData();
+    console.log(this.phonesDetails)
+  
   }
+  //retocar el tema de los botones de la familia y el filtro
 
   ngOnInit() {
 
-    this.fnfiltro(11,0);
+    this.fnfiltro(12,0);
 
   }
 

@@ -1,4 +1,5 @@
-<app-header></app-header>
+<div (scroll)="fnScrool($event)">
+<app-header [isOnTopOfPage]="true"></app-header>
 <app-banner></app-banner>
 <app-banner-static [toRight]="false"></app-banner-static>
 <app-product-container></app-product-container>
@@ -16,3 +17,4 @@
 
 <!-- <app-product-gallery></app-product-gallery> -->
 <app-footer></app-footer>
+</div>

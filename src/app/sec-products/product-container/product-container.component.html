@@ -7,9 +7,9 @@
 
       <div class="slider-box-title" [ngStyle]='{"left":titlesCarrouselPosition+"px",
     }'>
-        <div class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(11+i,i)"
+        <div class="title-carousel-item" *ngFor="let button of arButtons; let i = index" (click)="fnfiltro(12+i,i)"
           [ngClass]="{'pressed':arButtons[i]}">
-          iPhone {{11+i}}
+          iPhone {{12+i}}
         </div>
 
       </div>
@@ -25,6 +25,7 @@
 
     <div class="phones-slider-button left" (click)="fnDespPhonCarroLeft()">&#8249;</div>
 
+    
     <div class="slider-box-container-phones">
       <div class="slider-box-phones" [ngStyle]="{'left':phonesCarrouselPosition+'px'}">
         <app-product-data class="phone-card" *ngFor="let phone of phonesFamily"

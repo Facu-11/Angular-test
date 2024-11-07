@@ -14,5 +14,4 @@ export const routes: Routes = [
     { path: "product", component: ProductGalleryComponent},
     { path: "product2", component:ProductPageComponent },
     { path: "product3", component:BannerStaticComponent }
-
   ]

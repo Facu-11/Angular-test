@@ -1,58 +1,67 @@
-<section class="main-product-page">
-    <div>
-        <!-- titulo  y banner-->
-        <div class="product-page">
-            <!-- Contenedor principal de la galería de imágenes -->
-            <div class="product-gallery">
-                <!-- Imagen principal -->
-                <div class="main-image">
-                    <img [src]="mainImageUrl" alt="Imagen principal del producto" />
-                </div>
+<section class="product-page">
 
-                <!-- Carrusel de miniaturas -->
-                <div class="image-carousel">
-                    <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
-                    <div class="thumbnails-container">
-                        <div class="thumbnail" *ngFor="let img of images; let i = index" (click)="setMainImage(i)">
-                            <img [src]="img" [class.active]="i === selectedImageIndex" alt="Miniatura {{i + 1}}">
-                        </div>
-                    </div>
-                    <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
-                </div>
-            </div>
+    <!-- Contenedor principal de la galería de imágenes -->
+    <div class="product-gallery">
+        <!-- Imagen principal -->
+        <div class="main-image">
+            <img [src]="mainImageUrl" alt="Imagen principal del producto" />
+        </div>
 
-            <!-- Información del producto (parte derecha) -->
-            <div class="product-details">
-                <h1>{{phone().modelo}}</h1>
-                <div class="env-gar">
-                    <p>{{phone().pantalla.medidas}}</p>
-                    <p><strong>Garantia Oficial</strong></p>
-                    <p>Hasta 1 día hábil después de la aprobación del pago</p>
-                </div>
+        <!-- Carrusel de miniaturas -->
+        <div class="image-carousel">
+            <button class="carousel-btn prev-btn" (click)="prevImage()">&lt;</button>
+            <div class="thumbnails-container">
+                <!-- <div class="thumbnail" *ngFor="let img of images; let i = index" (click)="setMainImage(i)">
+                    <img [src]="img" [class.active]="i === selectedImageIndex" alt="Miniatura {{i + 1}}">
+                </div> -->
 
-                <div class="button-section">
-                    <p>Contacta con nostros para saber mas sobre el producto y su disponibilidad</p>
-                    <button>Consultar</button>
-                    <p>Compara este y otros productos mas!</p>
-                    <button>Comparar</button>
+                @for(img of phoneData().phoneImgColorsSetSelected;
+                track $index;
+                let i = $index;
+                )
+                {
+                <div class="thumbnail" (click)="setMainImage($index)">
+                    <img [src]="img" [class.active]="i === selectedImageIndex">
                 </div>
-
-                <!-- Sección de Color y Memoria debajo del botón de compra -->
-                <div class="product-options">
-                    <!-- Opciones de color -->
-                    <div class="color-options">
-                        <h3>Colores disponibles</h3>
-                        <div class="color-circles">
-                            <div class="color-circle cream" title="Cream"></div>
-                            <div class="color-circle graphite" title="Graphite"></div>
-                            <div class="color-circle lavender selected" title="Lavender"></div>
-                            <div class="color-circle mint" title="Mint"></div>
-                            <div class="color-circle blue" title="Blue"></div>
-                        </div>
-                    </div>
-                </div>
+                }
 
             </div>
+            <button class="carousel-btn next-btn" (click)="nextImage()">&gt;</button>
         </div>
     </div>
+
+    <!-- Información del producto (parte derecha) -->
+    <div class="product-details">
+        <h1>{{phoneData().phoneModel}}</h1>
+        <div class="env-gar">
+            <p>{{phoneData().phoneDescription}}</p>
+            <p><strong>Garantia Oficial</strong></p>
+            <p>Hasta 1 día hábil después de la aprobación del pago</p>
+        </div>
+
+        <div class="button-section">
+            <p>Contacta con nostros para saber mas sobre el producto y su disponibilidad</p>
+            <button>Consultar</button>
+            <p>Compara este y otros productos mas!</p>
+            <button>Comparar</button>
+        </div>
+
+        <!-- Sección de Color y Memoria debajo del botón de compra -->
+        <div class="product-options">
+            <!-- Opciones de color -->
+            <div class="color-options">
+                <h3>Colores disponibles</h3>
+                <div class="color-circles">
+                    @for(color of phoneData().phonoColorsAvalible; track $index){
+                    <div class="color-circle" [ngStyle]="{'backgroundColor':color}" title=""
+                        (click)="fnSelectColor(color)"
+                        (click)="setMainImage(selectedImageIndex)"
+                        ></div>
+                    }
+                </div>
+            </div>
+        </div>
+
+    </div>
+
 </section>

@@ -1,2 +1,6 @@
 <app-header></app-header>
-<app-product-img-component [phone]="testPhone"></app-product-img-component>
+<app-product-img-component
+    [phoneData]="phoneData"
+    (colorSelected)="fnColorSelector($event)"  
+>
+</app-product-img-component>
