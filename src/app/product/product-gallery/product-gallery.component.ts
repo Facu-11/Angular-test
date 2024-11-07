@@ -80,8 +80,6 @@ export class ProductGalleryComponent {
     }
   }
 
-
-
   ngOnInit() {
 
     this.fnfiltro(11, 0);
@@ -123,14 +121,10 @@ export class ProductGalleryComponent {
     this.hover = value;
   }
 
-
   /* phones carrousel*/
-
-
   fnDespPhonCarroLeft() {
     this.phonesCarrouselPosition = this.phonesCarrouselPosition >= 0 ? this.phonesCarrouselPosition : this.phonesCarrouselPosition += this.objPhoneCardInfo.width;
   }
-
 
   fnDespPhonCarroRight() {
     this.phonesCarrouselPosition = this.phonesCarrouselPosition <=

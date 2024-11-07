@@ -6,13 +6,13 @@ import { ProductGalleryComponent } from './product/product-gallery/product-galle
 import { ProductPageComponent } from './product/product-main-page/product-page.component';
 import { BannerStaticComponent } from './product/banners/banner-static/banner-static.component';
 
+
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: "comparador", component: ComparatorComponentComponent },
     { path: "testZone", component: ProductContainerComponent },
     { path: "product", component: ProductGalleryComponent},
     { path: "product2", component:ProductPageComponent },
-    { path: "product3", component:BannerStaticComponent },
+    { path: "product3", component:BannerStaticComponent }
 
-
-]
+  ]
