@@ -3,8 +3,9 @@ import { ComparatorComponentComponent } from './phoneComparator-page/comparator-
 import { HomeComponent } from './falsoHome/home.component';
 import { ProductContainerComponent } from './sec-products/product-container/product-container.component';
 import { ProductGalleryComponent } from './product/product-gallery/product-gallery.component';
-import { ProductPageComponent } from './product/product-main-page/product-page.component';
+
 import { BannerStaticComponent } from './product/banners/banner-static/banner-static.component';
+import { ProductPageComponent } from './product/product-main-gae/product-page.component';
 
 
 export const routes: Routes = [
