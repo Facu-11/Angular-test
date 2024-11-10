@@ -1,44 +1,18 @@
-/* Estilo general de la sección de historia */
-.company-history {
-    width: 100%;
-    height: 100%;
-    background-color: #001233;
-    padding: 50px 20px;
-
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: #333;
+/* Asegura que el contenedor ocupe toda la pantalla */
+.banner-container {
+  width: 100%;
+  height: 95vh; 
+  overflow: hidden;
+  position: relative;
 }
 
-.history-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.company-history h2 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    color: #fdfcfc;
-    margin-bottom: 30px;
-
-    text-align: center;
-}
-
-.company-history p {
-
-    font-size: 1.6em;
-
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: #fdfcfc;
-}
-
-/* Responsivo */
-@media (max-width: 768px) {
-    .company-history h2 {
-        font-size: 2rem;
-    }
-
-    .company-history p {
-        font-size: 1rem;
-    }
+/* Estilos para el video */
+.banner-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
 }
