@@ -17,7 +17,7 @@ import { RouterLink } from '@angular/router';
 
 export class ProductPageComponent implements OnInit {
 
-  @Input('id') phoneId!: number;
+  @Input('id') phoneId!: string;
 
   phoneSelected: IphoneProductColorImgs = <IphoneProductColorImgs>{};
   phoneData: phoneColorData = <phoneColorData>{};
@@ -28,8 +28,14 @@ export class ProductPageComponent implements OnInit {
     //falta imagenes del iphone 15 y el 15 plus
   }
 
-  fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: number) {
-    return phones.filter((phone) =>{return phone.family == phoneModel})[0];
+  ngOnInit(): void {
+    console.log(this.phoneId);
+    this.phoneSelected = this.fnGetPhoneFromModel(this.data.getPhoneAndImgColorsData(), this.phoneId);
+    this.fnLoadImgData();
+  }
+
+  fnGetPhoneFromModel(phones: Array<IphoneProductColorImgs>, phoneModel: string) {
+    return phones.filter((phone) =>{return phone.modelo == phoneModel})[0];
   }
 
   fnLoadImgData() {
@@ -51,11 +57,6 @@ export class ProductPageComponent implements OnInit {
     this.phoneData.phoneImgColorsSetSelected = this.fnGetAllIdemColoredImgs(color);
   }
 
-  ngOnInit(): void {
-    console.log(this.phoneId);
-    this.phoneSelected = this.fnGetPhoneFromModel(this.data.getPhoneAndImgColorsData(), this.phoneId);
-    this.fnLoadImgData();
-
-  }
+  
 
 }

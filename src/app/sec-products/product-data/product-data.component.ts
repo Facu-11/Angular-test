@@ -1,11 +1,12 @@
 import { Component, ElementRef, input, OnInit, Output, output } from '@angular/core';
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { IphoneProductColorImgs } from '../../Core/iphone-product';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-data',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './product-data.component.html',
   styleUrl: './product-data.component.css'
 })
@@ -13,7 +14,6 @@ export class ProductDataComponent implements OnInit{
   phoneDetails= input.required<IphoneProductColorImgs>();
   
   constructor(private elem: ElementRef){}
-
 
   elementWidth = output<number>();
   randomNum:number = 0;

@@ -11,8 +11,6 @@ import phoneProductImgsColors from '../../Data/iphoneProductsImgColors.json'
 import { phoneDetails } from '../../Core/iphoneDetails';
 import { IphoneProduct, IphoneProductColorImgs } from '../../Core/iphone-product';
 
-
-
 import { bannerPhone } from '../../Core/banners-data';
 import bannerStatic from '../../Data/banners-json/bannerStatic.json';
 
@@ -50,11 +48,13 @@ export class StaticDataSvService {
     return phoneProductImg;
   }
 
-  getPhoneAndImgColorsData(): Array<IphoneProductColorImgs> {
+  // getPhoneAndImgColorsData(): Array<IphoneProductColorImgs> {
+  //   return phoneProductImgsColors;
+  // }
+
+  getPhoneAndImgColorsData():Array<IphoneProductColorImgs>{
     return phoneProductImgsColors;
   }
-
-  
 
   getBannerStatic(): bannerPhone[]{
     return bannerStatic;
