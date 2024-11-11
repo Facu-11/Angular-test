@@ -17,7 +17,7 @@ import { bannerPhone } from '../../Core/banners-data';
 import bannerStatic from '../../Data/banners-json/bannerStatic.json';
 
 import { VideoBanner } from '../../Core/videoBanner';
-// import bannerVideo from '../../Data/banners-json/bannerVideo.json';
+import bannerVideo from '../../Data/banners-json/bannerVideo.json';
 
 
 
@@ -60,10 +60,8 @@ export class StaticDataSvService {
     return bannerStatic;
   }
   
-  getBannerVideo(): VideoBanner {
-    return {
-      videoUrl: "videos/dinamic-island.mp4" 
-    };
+  getBannerVideo(): Array<VideoBanner> {
+    return bannerVideo;
   }
 
 }

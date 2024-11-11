@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 export class HistoryPageComponent implements OnInit{
 
 
-  bannerVi!:  VideoBanner;
+  bannerVi!:  Array<VideoBanner>;
 
   constructor(private staticDataSvService: StaticDataSvService) {}
 

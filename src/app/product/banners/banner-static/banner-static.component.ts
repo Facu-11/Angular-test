@@ -2,6 +2,7 @@ import { Component, input, OnInit } from '@angular/core';
 import { bannerPhone } from '../../../Core/banners-data';
 import { StaticDataSvService } from '../../../services/staticDataGetterSv/static-data-sv.service';
 import { CommonModule } from '@angular/common';
+import { VideoBanner } from '../../../Core/videoBanner';
 
 @Component({
   selector: 'app-banner-static',
@@ -15,16 +16,22 @@ import { CommonModule } from '@angular/common';
 export class BannerStaticComponent implements OnInit {
    
   bannerDataIphone: bannerPhone[] = [];
+  
+  bannerVi!:  Array<VideoBanner>;
 
   constructor(private staticDataService: StaticDataSvService) {}
 
   ngOnInit(): void {
     
     this.bannerDataIphone = this.staticDataService.getBannerStatic();
+
+    this.bannerVi = this.staticDataService.getBannerVideo();
   }
   
   // toRight: boolean = false;
   
   toRight = input(false);
+
+  
 
 }
