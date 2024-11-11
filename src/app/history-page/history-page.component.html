@@ -1,21 +1,6 @@
-<section class="company-history">
-    <div class="history-container">
-        <h2>Una Historia de Innovación</h2>
-        <p>
-            Fundada en 2010, nuestra tienda se ha dedicado exclusivamente a la venta de productos Apple, 
-            brindando a nuestros clientes lo último en tecnología y diseño. Desde nuestros inicios, hemos
-            crecido junto con la marca, compartiendo la visión de ofrecer productos que transformen la manera
-            en que vivimos y trabajamos.
-        </p>
-        <p>
-            Con un enfoque en el servicio al cliente y una pasión por la tecnología, hemos logrado expandirnos
-            a través de diversas plataformas, siempre ofreciendo la calidad y la experiencia de Apple en cada
-            una de nuestras tiendas.
-        </p>
-        <p>
-            Nuestra misión es simple: acercarte a la tecnología que amas, con la garantía de un servicio de calidad
-            y la confianza de que cada producto que ofrecemos es original y está respaldado por la marca más innovadora
-            del mundo.
-        </p>
-    </div>
-</section>
+<div class="banner-container" *ngIf = "bannerVi">
+    <video autoplay muted loop class="banner-video" controls autoplay>
+      <source [src]="bannerVi[2].videoUrl" type="video/mp4" />
+    </video>
+  </div>
+  

@@ -1,4 +1,4 @@
-.banner-container {
+.banner-con {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +35,28 @@
   border-radius: 10px;
 }
 
+.banner-vi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 8px; /* Redondeo opcional */
+}
+
+.banner-vi video {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Limita la altura en pantallas grandes */
+  object-fit: cover; /* Mantiene la proporción del video */
+  border-radius: 8px; /* Aplica el mismo redondeo al video */
+}
+
+
+
+
 @media (min-width: 768px) {
-  .banner-container {
+  .banner-con {
     flex-direction: row;
     align-items: center;
     gap: 20px;
@@ -45,11 +65,27 @@
   .banner-content {
     text-align: left;
   }
+
+  .banner-vi {
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .banner-vi video {
+    max-height: 50vh; /* Ajusta la altura para teléfonos */
+  }
 }
 
 
 
-
+/* Para pantallas medianas (tabletas) */
+@media (max-width: 900px) {
+  .banner-vi {
+    width: 90vw;
+  }
+  .banner-vi video {
+    max-height: 60vh; /* Ajusta la altura para tabletas */
+  }
+}
 
 
 

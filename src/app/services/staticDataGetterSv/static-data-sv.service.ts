@@ -16,6 +16,10 @@ import { IphoneProduct, IphoneProductColorImgs } from '../../Core/iphone-product
 import { bannerPhone } from '../../Core/banners-data';
 import bannerStatic from '../../Data/banners-json/bannerStatic.json';
 
+import { VideoBanner } from '../../Core/videoBanner';
+import bannerVideo from '../../Data/banners-json/bannerVideo.json';
+
+
 
 
 @Injectable({
@@ -56,5 +60,8 @@ export class StaticDataSvService {
     return bannerStatic;
   }
   
+  getBannerVideo(): Array<VideoBanner> {
+    return bannerVideo;
+  }
 
 }
