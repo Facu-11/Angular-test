@@ -32,6 +32,11 @@ export class BannerStaticComponent implements OnInit {
   
   toRight = input(false);
 
+
+  onVideoEnd(event: Event): void {
+    const videoElement = event.target as HTMLVideoElement;
+    videoElement.pause(); // Pausar el video al final
+  }
   
 
 }

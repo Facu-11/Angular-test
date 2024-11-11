@@ -29,7 +29,7 @@
     <p>{{bannerDataIphone[2].description.text}}</p>
   </div>
   <div class="banner-vi">
-    <video autoplay muted loop controls autoplay>
+    <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
       <source [src]="bannerVi[2].videoUrl" type="video/mp4" />
     </video>
   </div>
@@ -37,7 +37,7 @@
 
 <div class="banner-con" *ngIf="!toRight()">
  <div class="banner-vi">
-  <video autoplay muted loop controls autoplay>
+  <video autoplay muted class="banner-video" (ended)="onVideoEnd($event)">
     <source [src]="bannerVi[1].videoUrl" type="video/mp4" />
   </video>
 </div>

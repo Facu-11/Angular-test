@@ -20,4 +20,11 @@ export class HistoryPageComponent implements OnInit{
   ngOnInit(): void {
     this.bannerVi = this.staticDataSvService.getBannerVideo();
   }
+
+
+  onVideoEnd(event: Event): void {
+    const videoElement = event.target as HTMLVideoElement;
+    videoElement.pause(); // Pausar el video al final
+  }
+  
 }
