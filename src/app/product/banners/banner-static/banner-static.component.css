@@ -16,6 +16,7 @@
   justify-content: center;
   text-align: center;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 .banner-content h2 {
@@ -45,9 +46,9 @@
 }
 
 .banner-vi video {
-  width: 100%;
+  width: 80%;
   height: auto;
-  max-height: 80vh; /* Limita la altura en pantallas grandes */
+  max-height: 120vh; /* Limita la altura en pantallas grandes */
   object-fit: cover; /* Mantiene la proporción del video */
   border-radius: 8px; /* Aplica el mismo redondeo al video */
 }
@@ -64,6 +65,8 @@
 
   .banner-content {
     text-align: left;
+    padding: 10px; /* Reduce el padding en teléfonos */
+    margin-top: 15px; /* Agrega un margen inferior para separarlo del video */
   }
 
   .banner-vi {
