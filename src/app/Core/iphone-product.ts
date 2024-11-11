@@ -53,11 +53,12 @@ export interface IphoneImagenColor{
 
 export interface IphoneProductColorImgs {
     family: number,
-    modelo: string;
-    procesador: Procesador;
-    camara: Camara;
-    almacenamiento: string[];
-    pantalla: Pantalla;
-    otros: Otros;
+    modelo: string,
+    procesador: Procesador,
+    camara: Camara,
+    almacenamiento: string[],
+    pantalla: Pantalla,
+    otros: Otros,
+    imagenColoresFamilia?:string,
     imagenes: IphoneImagenColor[];
 }

@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms'; 
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { phoneDetails } from '../../Core/iphoneDetails';
-import { IphoneProduct } from '../../Core/iphone-product';
+import { IphoneProduct, IphoneProductColorImgs } from '../../Core/iphone-product';
 import { ProcesadorComponent } from "../comparatorSections/procesador/procesador.component";
 import { CamarasComponent } from "../comparatorSections/camaras/camaras.component";
 import { PantallaComponent } from "../comparatorSections/pantalla/pantalla.component";
@@ -23,8 +23,8 @@ import { ImgComponent } from "../comparatorSections/imagen/img.component";
 })
 export class ComparatorComponentComponent{
 
-  dataPhonesT:Array<IphoneProduct>; 
-  arrPhonesToCompare:Array<IphoneProduct>=[];
+  dataPhonesT:Array<IphoneProductColorImgs>; 
+  arrPhonesToCompare:Array<IphoneProductColorImgs>=[];
 
   userModelOne:string;
   userModelTwo:string;
@@ -35,7 +35,8 @@ export class ComparatorComponentComponent{
   constructor(private data:StaticDataSvService){
     // this.dataPhonesT = this.data.getData();
     // this.dataPhonesT = this.data.getPhoneData();
-    this.dataPhonesT = this.data.getPhoneAndImgData();
+    // this.dataPhonesT = this.data.getPhoneAndImgData();
+    this.dataPhonesT = this.data.getPhoneAndImgColorsData();
 
     if(this.fnIsScreenSmall()){
 
@@ -96,7 +97,7 @@ export class ComparatorComponentComponent{
     this.arrPhonesToCompare[inputNum]=this.searchInData(phoneModel)
   }
 
-  searchInData(phoneModel:string):IphoneProduct{
+  searchInData(phoneModel:string):IphoneProductColorImgs{
     return this.dataPhonesT.filter(phone=>phone.modelo==phoneModel)[0];
   }
 

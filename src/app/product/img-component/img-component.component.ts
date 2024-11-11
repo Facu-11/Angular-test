@@ -4,11 +4,12 @@ import { phoneDetails } from '../../Core/iphoneDetails';
 import { StaticDataSvService } from '../../services/staticDataGetterSv/static-data-sv.service';
 import { CommonModule } from '@angular/common';
 import { phoneColorData } from '../DTOs/phoneColorData';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-product-img-component',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './img-component.component.html',
   styleUrl: './img-component.component.css'
 })

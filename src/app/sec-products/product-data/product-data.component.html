@@ -2,5 +2,5 @@
 <div class="product-card">
     <img [src]="phoneDetails().imagenes[randomNum].imgFront" alt="Imagen del producto" />
     <h3>{{ phoneDetails().modelo }}</h3>
-    <button>ver mas</button>
+    <button> <a [routerLink]="['/product2',phoneDetails().modelo]">ver mas</a> </button>
 </div>
