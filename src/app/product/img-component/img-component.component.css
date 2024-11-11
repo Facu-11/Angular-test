@@ -180,9 +180,7 @@
     justify-content: center;
     gap: 10px;
   }
-  
-  
-  
+
   /* Estilo de las miniaturas */
   .thumbnail {
     margin: 0 5px;
@@ -205,8 +203,6 @@
   .thumbnail img:hover {
     border: 2px solid #007aff;
   }
-  
-  
   
   /* Contenedor de las opciones de color y memoria */
   .product-options {
@@ -238,28 +234,7 @@
     transition: border 0.3s ease;
     display: flex;
     justify-content: center;
-    align-items: center;
-  }
-  
-  /* Colores específicos */
-  .color-circle.cream {
-    background-color: #f5f5dc;
-  }
-  
-  .color-circle.graphite {
-    background-color: #2f2f2f;
-  }
-  
-  .color-circle.lavender {
-    background-color: #9370db;
-  }
-  
-  .color-circle.mint {
-    background-color: #98ff98;
-  }
-  
-  .color-circle.blue {
-    background-color: #4169e1;
+    align-items: flex-start;
   }
   
   /* Efecto de selección */
@@ -271,8 +246,6 @@
   .color-circle:hover {
     border: 2px solid #1c6df2;
   }
-  
-  
   
   /* Estilos responsive */
   @media (max-width: 768px) {
@@ -290,13 +263,17 @@
     }
   
     .thumbnail img {
-      width: 50px;
-      height: 50px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .color-circles{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
     }
   }
-  
-  
-  
   
   /* Estilos responsive */
   @media (max-width: 1128px) {

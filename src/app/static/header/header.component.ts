@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, HostListener, input, viewChild } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 interface objImg {
   url: string;
@@ -9,7 +10,7 @@ interface objImg {
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,RouterLink],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
