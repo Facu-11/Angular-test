@@ -33,11 +33,20 @@
     <!-- Información del producto (parte derecha) -->
     <div class="product-details">
         <h1>{{phoneData().phoneModel}}</h1>
-        <div class="env-gar">
-            <p>{{phoneData().phoneDescription}}</p>
-            <p><strong>Garantia Oficial</strong></p>
-            <p>Hasta 1 día hábil después de la aprobación del pago</p>
+
+
+        <!-- Opciones de color -->
+        <div class="color-options env-gar">
+            <h3>Colores</h3>
+            <div class="color-circles">
+                @for(color of phoneData().phonoColorsAvalible; track $index){
+                <div class="color-circle" [ngStyle]="{'backgroundColor':color}" title="" (click)="fnSelectColor(color)"
+                    (click)="setMainImage(selectedImageIndex)"></div>
+                }
+            </div>
         </div>
+
+
 
         <div class="button-section">
             <p>Contacta con nostros para saber mas sobre el producto y su disponibilidad</p>
@@ -47,20 +56,7 @@
         </div>
 
         <!-- Sección de Color y Memoria debajo del botón de compra -->
-        <div class="product-options">
-            <!-- Opciones de color -->
-            <div class="color-options">
-                <h3>Colores disponibles</h3>
-                <div class="color-circles">
-                    @for(color of phoneData().phonoColorsAvalible; track $index){
-                    <div class="color-circle" [ngStyle]="{'backgroundColor':color}" title=""
-                        (click)="fnSelectColor(color)"
-                        (click)="setMainImage(selectedImageIndex)"
-                        ></div>
-                    }
-                </div>
-            </div>
-        </div>
+
 
     </div>
 

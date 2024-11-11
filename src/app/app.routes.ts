@@ -13,6 +13,6 @@ export const routes: Routes = [
     { path: "comparador", component: ComparatorComponentComponent },
     { path: "testZone", component: ProductContainerComponent },
     { path: "product", component: ProductGalleryComponent},
-    { path: "product2", component:ProductPageComponent },
+    { path: "product2/:id", component:ProductPageComponent },
     { path: "product3", component:BannerStaticComponent }
   ]

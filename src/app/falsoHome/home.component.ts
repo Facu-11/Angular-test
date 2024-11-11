@@ -27,19 +27,4 @@ import { SpacerComponent } from '../static/spacer/spacer.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
-  scroolOnTopOfPage:boolean = true;
-
-  @HostListener('window:scroll', ['$event']) // for window scroll events
-   fnScrool(cosa:Event){
-    console.log(window.pageYOffset)
-    if(window.pageYOffset==0){
-      return true;
-    }else{
-      return false;
-    }
-    
-  }
-
-  
 }

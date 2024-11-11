@@ -57,7 +57,7 @@ nav ul li a:hover {
 }
 
 .normal {
-    background-color: var(--light-fourty-color);
+   
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
 
